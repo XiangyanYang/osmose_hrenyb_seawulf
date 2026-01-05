@@ -16,6 +16,10 @@ osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_*.R
 # ===== Allow specific calibration runs =====
 !calibration_1209_test2/
 !calibration_1209_test2/**
+!calibration_1220/
+!calibration_1220/**
+!calibration_1222/
+!calibration_1222/**
 
 # ===== Allow specific output =====
 !osmose-hrenyb-v4.4.1-xiangyan/output/1209/
@@ -60,4 +64,5 @@ osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_*.R
 # ===== Allow model scripts =====
 !osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_1205.R
 !osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_1209.R
-
+!osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_1209_calib.R
+!osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_1222.R
