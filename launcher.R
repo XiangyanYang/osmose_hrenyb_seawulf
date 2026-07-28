@@ -17,8 +17,8 @@ jarFile    = file.path(javaPath, sprintf("osmose-%s-jar-with-dependencies.jar", 
 # 1. Model Configuration --------------------------------------------------
 
 configDir  = "/gpfs/home/xiangyyang/ChenLabSpace/OSMOSE-HRENYB-GIT/osmose-hrenyb-v4.4.1-xiangyan/"
-main       = "osmose-hrenyb_1222.R"
-simulation = "1222"
+main       = "osmose-hrenyb_final.R"
+simulation = "test"
 
 configFile = file.path(configDir, main) # path to main configuration file
 outputDir  = file.path(configDir, "output", simulation)
@@ -28,7 +28,7 @@ conf = read_osmose(input=configFile)
 # 2. Model initialization -------------------------------------------------
 
 inifile = get_par(conf, "osmose.configuration.initialization")
-if(is.null(inifile)) inifile = file.path(configDir, "input", "initial_conditions_1209.osm")
+if(is.null(inifile)) inifile = file.path(configDir, "input", "initial_conditions_final.osm")
 
 out = initialize_osmose(input=configFile, file=inifile, output=outputDir,
                   type = "internannual", osmose = jarFile, version=version,
@@ -52,7 +52,7 @@ out = initialize_osmose(input=configFile, file=inifile, output=outputDir,
 
 # 3. Running OSMOSE -------------------------------------------------------
 
-options = "-Xmx3g -Xms1g"
+options = "-Xmx20g -Xms1g"
 run_osmose(input = configFile, output = outputDir, osmose = jarFile, version=version, options=options)
 
 
@@ -62,9 +62,9 @@ plot(nyb)
 # 4. Calibration setup ----------------------------------------------------
 
 setwd("/gpfs/home/xiangyyang/ChenLabSpace/OSMOSE-HRENYB-GIT/")
-configFile = "osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_1222.R"
+configFile = "osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_final.R"
 calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile, 
-                                            type="survey", name = "1222", 
+                                            type="survey", name = "0511", 
                                             control=list(skip_tests=TRUE))
 
 # change calibration_setting.csv file
@@ -73,10 +73,9 @@ calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile,
 
 # # now, fill your observed data and run the test again. 
 calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile, 
-                                            type="survey", name="1222", data_path = "data_update")
+                                            type="survey", name="0511", data_path = "data_update")
 
 osmose_calibration_test(calibration_path)
 #osmose_calibration_test(calibration_path, parallel.only = TRUE)
 
 # change setting in .calibrarrc
-

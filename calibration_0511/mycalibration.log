@@ -1,0 +1,291 @@
+
+--------- Mon May 11 02:50:51 2026
+
+R version 4.4.1 (2024-06-14)
+	R_LIBS      = 
+	R_LIBS_USER = /gpfs/home/xiangyyang/R/x86_64-conda-linux-gnu-library/4.4
+	calibrar version 0.9.0.9008 loaded.
+	osmose version 4.4.1.9033 loaded.
+
+Using nodes: xm069
+
+Copying OSMOSE executable: TRUE
+Running calibration in parallel with 96 cores.
+Running calibration with 11 cores, OSMOSE is using 8 cores per simulation.
+Loading required package: doParallel
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+Using doParallel for parallelisation (PSOCK).
+Loading calibrar in the cluster...
+Loading OSMOSE in the cluster...
+
+Starting calibration from phase 1.
+
+Using 'master' directory: master
+Using 'run' directory: ../.run_calibration_0511
+Parameter estimation in two phases.
+
+- Phase 1: 4 out of 758 parameters are currently active.
+	Started at Mon May 11 02:50:57 2026.
+
+	Using optimization method 'AHR-ES'.
+Optimizing 'popsize' to work with 11 cores...
+	Optimal population size (8) has been increased to 11.
+
+Generation  1 finished (4m 56.5s)
+   Function value = 53709.67517
+
+Generation  2 finished (4m 7.2s)
+   Function value = 51874.31202
+
+Generation  3 finished (4m 39.3s)
+   Function value = 53087.54446
+
+Generation  4 finished (3m 58.6s)
+   Function value = 46357.19019
+
+Generation  5 finished (4m 2.5s)
+   Function value = 50446.35178
+
+Generation  6 finished (5m 1.8s)
+   Function value = 41035.99386
+
+Generation  7 finished (3m 50.2s)
+   Function value = 51319.70234
+
+Generation  8 finished (4m 43.5s)
+   Function value = 51687.97596
+
+Generation  9 finished (4m 12.8s)
+   Function value = 53002.79006
+
+Generation 10 finished (3m 43.8s)
+   Function value = 49636.24806
+
+Generation 11 finished (4m 55.0s)
+   Function value = 53314.46998
+
+Generation 12 finished (4m 6.3s)
+   Function value = 51409.47316
+
+Generation 13 finished (4m 49.5s)
+   Function value = 53724.02606
+
+Generation 14 finished (4m 32.9s)
+   Function value = 50021.63186
+
+Generation 15 finished (4m 55.5s)
+   Function value = 45148.14666
+
+Generation 16 finished (4m 57.3s)
+   Function value = 45203.97096
+
+Generation 17 finished (4m 45.0s)
+   Function value = 52985.11976
+
+Generation 18 finished (3m 58.5s)
+   Function value = 50911.96081
+
+Generation 19 finished (4m 56.8s)
+   Function value = 51637.02666
+
+Generation 20 finished (4m 59.9s)
+   Function value = 52775.66967
+
+Generation 21 finished (4m 52.6s)
+   Function value = 51792.80461
+
+Generation 22 finished (4m 34.5s)
+   Function value = 33737.66295
+
+Generation 23 finished (4m 32.5s)
+   Function value = 51931.93021
+
+Generation 24 finished (4m 55.5s)
+   Function value = 51574.3114
+
+Generation 25 finished (5m 3.2s)
+   Function value = 51301.30938
+
+Generation 26 finished (4m 59.8s)
+   Function value = 50933.62208
+
+Generation 27 finished (4m 55.9s)
+   Function value = 47671.37397
+
+Generation 28 finished (4m 55.3s)
+   Function value = 46088.80205
+
+Generation 29 finished (4m 3.4s)
+   Function value = 52710.80572
+
+Generation 30 finished (3m 46.3s)
+   Function value = 52315.64097
+
+	Phase 1 finished (2h 20m 45.2s)
+	Function value: 52702.9
+	Parameter values: -0.91 0.00917 0.437 1.29
+
+- Phase 2: 6 out of 758 parameters are currently active.
+	Started at Mon May 11 05:14:43 2026.
+
+	Using optimization method 'AHR-ES'.
+Optimizing 'popsize' to work with 11 cores...
+	Optimal population size (9) has been increased to 11.
+
+Generation  1 finished (4m 53.5s)
+   Function value = 44003.28697
+
+Generation  2 finished (4m 50.8s)
+   Function value = 52998.38781
+
+Generation  3 finished (4m 55.4s)
+   Function value = 53510.68295
+
+Generation  4 finished (4m 3.9s)
+   Function value = 51874.85547
+
+Generation  5 finished (4m 56.4s)
+   Function value = 52402.75997
+
+Generation  6 finished (3m 52.7s)
+   Function value = 46194.48595
+
+Generation  7 finished (3m 47.2s)
+   Function value = 51655.30364
+
+Generation  8 finished (4m 58.0s)
+   Function value = 50538.58979
+
+Generation  9 finished (4m 3.2s)
+   Function value = 48865.83471
+
+Generation 10 finished (4m 37.5s)
+   Function value = 52626.58413
+
+Generation 11 finished (3m 46.0s)
+   Function value = 51866.13371
+
+Generation 12 finished (3m 42.0s)
+   Function value = 51584.44937
+
+Generation 13 finished (4m 49.7s)
+   Function value = 36230.67151
+
+Generation 14 finished (4m 45.8s)
+   Function value = 41731.48638
+
+Generation 15 finished (4m 16.7s)
+   Function value = 52861.27969
+
+Generation 16 finished (3m 41.1s)
+   Function value = 45549.29378
+
+Generation 17 finished (4m 44.2s)
+   Function value = 52806.00296
+
+Generation 18 finished (5m 6.6s)
+   Function value = 51888.96462
+
+Generation 19 finished (4m 15.5s)
+   Function value = 41767.07171
+
+Generation 20 finished (4m 58.2s)
+   Function value = 52509.90272
+
+Generation 21 finished (3m 50.5s)
+   Function value = 53377.69769
+
+Generation 22 finished (3m 52.6s)
+   Function value = 52410.84026
+
+Generation 23 finished (3m 37.4s)
+   Function value = 51293.55458
+
+Generation 24 finished (4m 58.1s)
+   Function value = 52230.13367
+
+Generation 25 finished (5m 3.3s)
+   Function value = 52359.00766
+
+Generation 26 finished (4m 47.3s)
+   Function value = 52142.0013
+
+Generation 27 finished (4m 37.7s)
+   Function value = 52100.82196
+
+Generation 28 finished (3m 57.1s)
+   Function value = 51585.60787
+
+Generation 29 finished (4m 41.6s)
+   Function value = 51920.72917
+
+Generation 30 finished (4m 4.7s)
+   Function value = 52745.8465
+
+Generation 31 finished (4m 57.0s)
+   Function value = 45019.84115
+
+Generation 32 finished (3m 52.7s)
+   Function value = 46338.91401
+
+Generation 33 finished (4m 52.1s)
+   Function value = 43218.97155
+
+Generation 34 finished (5m 4.0s)
+   Function value = 50116.80095
+
+Generation 35 finished (4m 58.1s)
+   Function value = 52357.69412
+
+Generation 36 finished (3m 58.7s)
+   Function value = 51624.54521
+
+Generation 37 finished (3m 58.6s)
+   Function value = 43832.06992
+
+Generation 38 finished (4m 38.2s)
+   Function value = 51371.17871
+
+Generation 39 finished (3m 55.7s)
+   Function value = 51567.14439
+
+Generation 40 finished (3m 54.6s)
+   Function value = 51370.08439
+
+Generation 41 finished (3m 47.3s)
+   Function value = 52451.51677
+
+Generation 42 finished (4m 8.1s)
+   Function value = 52243.05156
+
+Generation 43 finished (3m 57.5s)
+   Function value = 50572.86214
+
+Generation 44 finished (4m 1.4s)
+   Function value = 52629.99565
+
+Generation 45 finished (4m 6.3s)
+   Function value = 47449.3117
+
+Generation 46 finished (4m 52.1s)
+   Function value = 46660.9758
+
+Generation 47 finished (4m 55.3s)
+   Function value = 51036.04269
+
+Generation 48 finished (4m 36.6s)
+   Function value = 48915.30815
+
+Generation 49 finished (4m 56.0s)
+   Function value = 48394.72176
+
+Generation 50 finished (5m 1.4s)
+   Function value = 51929.45984
+
+	Phase 2 finished (3h 45m 2.4s)
+	Function value: 53238.8
+	Parameter values: -0.951 -0.149 0.899 1.12 0.934 1.51
+
+Status: Maximum number of generations or function evaluations reached.
