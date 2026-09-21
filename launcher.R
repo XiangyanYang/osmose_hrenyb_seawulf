@@ -4,6 +4,7 @@
 
 install.packages("osmose", repo="https://osmose-model.github.io/drat/")
 install.packages("calibrar", repo="https://osmose-model.github.io/drat/")
+
 library(osmose)
 library(calibrar)
 # library(empirical.selectivity)
@@ -17,8 +18,8 @@ jarFile    = file.path(javaPath, sprintf("osmose-%s-jar-with-dependencies.jar", 
 # 1. Model Configuration --------------------------------------------------
 
 configDir  = "/gpfs/home/xiangyyang/ChenLabSpace/OSMOSE-HRENYB-GIT/osmose-hrenyb-v4.4.1-xiangyan/"
-main       = "osmose-hrenyb_final.R"
-simulation = "test"
+main       = "osmose-hrenyb_acc.R"
+simulation = "0917_cbined"
 
 configFile = file.path(configDir, main) # path to main configuration file
 outputDir  = file.path(configDir, "output", simulation)
@@ -62,9 +63,9 @@ plot(nyb)
 # 4. Calibration setup ----------------------------------------------------
 
 setwd("/gpfs/home/xiangyyang/ChenLabSpace/OSMOSE-HRENYB-GIT/")
-configFile = "osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_final.R"
+configFile = "osmose-hrenyb-v4.4.1-xiangyan/osmose-hrenyb_acc.R"
 calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile, 
-                                            type="survey", name = "0511", 
+                                            type="survey", name = "acc_0912", 
                                             control=list(skip_tests=TRUE))
 
 # change calibration_setting.csv file
@@ -73,9 +74,13 @@ calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile,
 
 # # now, fill your observed data and run the test again. 
 calibration_path = osmose_calibration_setup(input=configFile, osmose=jarFile, 
-                                            type="survey", name="0511", data_path = "data_update")
+                                            type="survey", name="acc_0912", data_path = "data_update")
 
 osmose_calibration_test(calibration_path)
 #osmose_calibration_test(calibration_path, parallel.only = TRUE)
 
-# change setting in .calibrarrc
+# change setting in .calibrarrc and run_model.R
+
+npar=153
+nmin = calibrar:::.optPopSize(npar, 0.5)
+nmin =19

@@ -1,0 +1,52 @@
+Predator,Source,MeanDietPercent,NSimulationsObserved
+AtlanticHerring,Zooplankton,86.72906754955,100
+AtlanticHerring,Benthos,0,100
+AtlanticHerring,Other fish,12.257837547749086,100
+AtlanticMackerel,Zooplankton,37.47600591545834,100
+AtlanticMackerel,Benthos,0,100
+AtlanticMackerel,Other fish,55.44521404508301,100
+BlackSeaBass,Zooplankton,43.658553720116664,100
+BlackSeaBass,Benthos,34.82203109186667,100
+BlackSeaBass,Other fish,20.937783762313725,100
+Scup,Zooplankton,36.94261313122483,100
+Scup,Benthos,48.46332201808333,100
+Scup,Other fish,14.139183178251734,100
+SpinyDogfish,Zooplankton,0,100
+SpinyDogfish,Benthos,53.98317375125,100
+SpinyDogfish,Other fish,45.82948148888073,100
+StripedBass,Zooplankton,42.0056449306491,100
+StripedBass,Benthos,11.687349491567279,100
+StripedBass,Other fish,46.27951633025273,100
+Goosefish,Zooplankton,45.288520792945,100
+Goosefish,Benthos,13.316818093166667,100
+Goosefish,Other fish,41.356046737752926,100
+WinterFlounder,Zooplankton,23.228784829525,100
+WinterFlounder,Benthos,24.58973226825,100
+WinterFlounder,Other fish,51.183796185029784,100
+Squids,Zooplankton,45.72079102393333,100
+Squids,Benthos,0,100
+Squids,Other fish,34.07371058504527,100
+Flounders,Zooplankton,21.99667659225,100
+Flounders,Benthos,23.4322566325,100
+Flounders,Other fish,53.61574654597198,100
+SkateRays,Zooplankton,0,100
+SkateRays,Benthos,63.12159252275,100
+SkateRays,Other fish,36.80914762989071,100
+Hakes,Zooplankton,43.11734208228,100
+Hakes,Benthos,18.62753573066667,100
+Hakes,Other fish,37.70190659886347,100
+Benthopelagics,Zooplankton,98.44823451736484,100
+Benthopelagics,Benthos,0,100
+Benthopelagics,Other fish,0.3805409578540398,100
+MiscellaneousDemersals,Zooplankton,40.541103926733335,100
+MiscellaneousDemersals,Benthos,47.715684624,100
+MiscellaneousDemersals,Other fish,10.192473302020552,100
+ShallowDemersal,Zooplankton,72.11264598700092,100
+ShallowDemersal,Benthos,0,100
+ShallowDemersal,Other fish,27.243483902255115,100
+WhitePerch,Zooplankton,35.62021143950389,100
+WhitePerch,Benthos,41.60775857157691,100
+WhitePerch,Other fish,22.044074520368945,100
+AtlanticTomcod,Zooplankton,17.640558721839003,100
+AtlanticTomcod,Benthos,54.17125785971667,100
+AtlanticTomcod,Other fish,22.199247758459002,100

@@ -1,0 +1,2762 @@
+
+--------- Sat Sep  5 05:09:25 2026
+
+R version 4.4.1 (2024-06-14)
+	R_LIBS      = 
+	R_LIBS_USER = /gpfs/home/xiangyyang/R/x86_64-conda-linux-gnu-library/4.4
+	calibrar version 0.9.0.9008 loaded.
+	osmose version 4.4.1.9033 loaded.
+
+Using nodes: xm071
+
+Copying OSMOSE executable: TRUE
+Running calibration in parallel with 96 cores.
+Running calibration with 23 cores, OSMOSE is using 4 cores per simulation.
+Loading required package: doParallel
+Loading required package: foreach
+Loading required package: iterators
+Loading required package: parallel
+Using doParallel for parallelisation (PSOCK).
+Loading calibrar in the cluster...
+Loading OSMOSE in the cluster...
+
+Starting calibration from phase 1.
+
+Using 'master' directory: master
+Using 'run' directory: ../.run_calibration_acc
+Parameter estimation in three phases.
+
+- Phase 1: 41 out of 758 parameters are currently active.
+	Started at Sat Sep  5 05:09:33 2026.
+
+	Using optimization method 'AHR-ES'.
+Optimizing 'popsize' to work with 23 cores...
+	Optimal population size (15) has been increased to 23.
+
+Generation   1 finished (3m 44.2s)
+   Function value = 75339.4268
+
+Generation   2 finished (3m 45.0s)
+   Function value = 110134.6558
+
+Generation   3 finished (4m 15.4s)
+   Function value = 83148.70672
+
+Generation   4 finished (3m 45.0s)
+   Function value = 101120.954
+
+Generation   5 finished (3m 45.3s)
+   Function value = 83702.43348
+
+Generation   6 finished (3m 29.2s)
+   Function value = 92069.51842
+
+Generation   7 finished (4m 0.6s)
+   Function value = 91217.28184
+
+Generation   8 finished (4m 11.3s)
+   Function value = 118617.4726
+
+Generation   9 finished (3m 54.9s)
+   Function value = 106495.238
+
+Generation  10 finished (3m 29.0s)
+   Function value = 108412.3829
+
+Generation  11 finished (3m 53.5s)
+   Function value = 109787.0957
+
+Generation  12 finished (3m 57.0s)
+   Function value = 92881.76465
+
+Generation  13 finished (4m 11.1s)
+   Function value = 119743.0352
+
+Generation  14 finished (4m 19.2s)
+   Function value = 104672.6616
+
+Generation  15 finished (4m 22.9s)
+   Function value = 89564.40321
+
+Generation  16 finished (4m 23.2s)
+   Function value = 79434.61218
+
+Generation  17 finished (4m 59.3s)
+   Function value = 80393.03386
+
+Generation  18 finished (4m 1.6s)
+   Function value = 82642.78119
+
+Generation  19 finished (4m 54.1s)
+   Function value = 78636.17931
+
+Generation  20 finished (4m 13.3s)
+   Function value = 71730.23901
+
+Generation  21 finished (4m 36.3s)
+   Function value = 76814.32029
+
+Generation  22 finished (4m 23.3s)
+   Function value = 79634.85971
+
+Generation  23 finished (4m 20.2s)
+   Function value = 75410.67979
+
+Generation  24 finished (4m 21.8s)
+   Function value = 81157.33106
+
+Generation  25 finished (3m 52.9s)
+   Function value = 76860.31292
+
+Generation  26 finished (4m 49.5s)
+   Function value = 78355.5605
+
+Generation  27 finished (4m 12.8s)
+   Function value = 73513.85874
+
+Generation  28 finished (4m 36.6s)
+   Function value = 76211.42576
+
+Generation  29 finished (4m 15.7s)
+   Function value = 75008.95474
+
+Generation  30 finished (4m 27.6s)
+   Function value = 74469.39321
+
+Generation  31 finished (4m 33.8s)
+   Function value = 76400.40246
+
+Generation  32 finished (4m 8.2s)
+   Function value = 73156.4729
+
+Generation  33 finished (4m 32.0s)
+   Function value = 74438.8199
+
+Generation  34 finished (4m 52.7s)
+   Function value = 76644.52265
+
+Generation  35 finished (4m 36.9s)
+   Function value = 76254.31176
+
+Generation  36 finished (4m 16.6s)
+   Function value = 78545.29679
+
+Generation  37 finished (4m 47.2s)
+   Function value = 76829.95884
+
+Generation  38 finished (4m 28.3s)
+   Function value = 71554.59905
+
+Generation  39 finished (5m 10.4s)
+   Function value = 72337.1153
+
+Generation  40 finished (4m 31.2s)
+   Function value = 73505.16861
+
+Generation  41 finished (4m 28.9s)
+   Function value = 72673.29444
+
+Generation  42 finished (5m 11.6s)
+   Function value = 71973.99634
+
+Generation  43 finished (4m 25.4s)
+   Function value = 69736.45099
+
+Generation  44 finished (4m 24.5s)
+   Function value = 70820.14566
+
+Generation  45 finished (4m 41.3s)
+   Function value = 70844.30427
+
+Generation  46 finished (4m 35.6s)
+   Function value = 73723.6157
+
+Generation  47 finished (4m 57.0s)
+   Function value = 72014.49861
+
+Generation  48 finished (5m 10.1s)
+   Function value = 70317.21016
+
+Generation  49 finished (4m 40.7s)
+   Function value = 69356.09098
+
+Generation  50 finished (4m 38.6s)
+   Function value = 68505.10774
+
+Generation  51 finished (4m 27.7s)
+   Function value = 70089.97258
+
+Generation  52 finished (4m 39.7s)
+   Function value = 70234.38969
+
+Generation  53 finished (4m 28.6s)
+   Function value = 69802.46193
+
+Generation  54 finished (4m 48.6s)
+   Function value = 68791.56813
+
+Generation  55 finished (4m 51.4s)
+   Function value = 68149.48601
+
+Generation  56 finished (4m 31.2s)
+   Function value = 65964.60974
+
+Generation  57 finished (5m 2.9s)
+   Function value = 66439.51404
+
+Generation  58 finished (5m 0.5s)
+   Function value = 69836.28284
+
+Generation  59 finished (4m 40.3s)
+   Function value = 68660.81226
+
+Generation  60 finished (4m 6.7s)
+   Function value = 68947.09597
+
+Generation  61 finished (4m 42.8s)
+   Function value = 68937.07528
+
+Generation  62 finished (4m 20.4s)
+   Function value = 67248.4947
+
+Generation  63 finished (4m 31.5s)
+   Function value = 65038.0436
+
+Generation  64 finished (4m 45.3s)
+   Function value = 67669.29905
+
+Generation  65 finished (4m 7.0s)
+   Function value = 68299.98056
+
+Generation  66 finished (4m 29.1s)
+   Function value = 70982.77019
+
+Generation  67 finished (4m 54.2s)
+   Function value = 63452.51872
+
+Generation  68 finished (4m 29.2s)
+   Function value = 67333.49679
+
+Generation  69 finished (5m 5.9s)
+   Function value = 68973.9547
+
+Generation  70 finished (4m 39.1s)
+   Function value = 67537.86624
+
+Generation  71 finished (4m 46.4s)
+   Function value = 68555.17583
+
+Generation  72 finished (4m 29.4s)
+   Function value = 68908.61691
+
+Generation  73 finished (3m 59.5s)
+   Function value = 67594.32482
+
+Generation  74 finished (4m 31.6s)
+   Function value = 66320.72277
+
+Generation  75 finished (4m 38.2s)
+   Function value = 67957.90799
+
+Generation  76 finished (4m 23.4s)
+   Function value = 69518.72064
+
+Generation  77 finished (5m 2.4s)
+   Function value = 68511.30213
+
+Generation  78 finished (4m 34.4s)
+   Function value = 68114.31593
+
+Generation  79 finished (4m 37.2s)
+   Function value = 68130.25898
+
+Generation  80 finished (5m 3.0s)
+   Function value = 67718.50619
+
+Generation  81 finished (4m 21.5s)
+   Function value = 66709.32806
+
+Generation  82 finished (4m 22.9s)
+   Function value = 67771.83381
+
+Generation  83 finished (4m 50.1s)
+   Function value = 67118.93292
+
+Generation  84 finished (4m 12.0s)
+   Function value = 66834.72805
+
+Generation  85 finished (4m 27.5s)
+   Function value = 67228.5003
+
+Generation  86 finished (4m 46.7s)
+   Function value = 67304.00006
+
+Generation  87 finished (4m 46.4s)
+   Function value = 66549.89979
+
+Generation  88 finished (4m 33.3s)
+   Function value = 67470.60355
+
+Generation  89 finished (4m 54.0s)
+   Function value = 66603.75027
+
+Generation  90 finished (4m 25.4s)
+   Function value = 68066.54029
+
+Generation  91 finished (4m 40.5s)
+   Function value = 67896.27762
+
+Generation  92 finished (4m 48.6s)
+   Function value = 67802.89904
+
+Generation  93 finished (5m 3.8s)
+   Function value = 65606.27645
+
+Generation  94 finished (5m 8.7s)
+   Function value = 66884.64701
+
+Generation  95 finished (4m 41.0s)
+   Function value = 67523.63094
+
+Generation  96 finished (4m 37.6s)
+   Function value = 67299.63722
+
+Generation  97 finished (4m 54.2s)
+   Function value = 67493.27689
+
+Generation  98 finished (4m 38.8s)
+   Function value = 61958.2007
+
+Generation  99 finished (4m 58.7s)
+   Function value = 66795.58336
+
+Generation 100 finished (5m 7.9s)
+   Function value = 66930.76418
+
+Generation 101 finished (4m 53.3s)
+   Function value = 64142.45654
+
+Generation 102 finished (4m 45.9s)
+   Function value = 67140.31286
+
+Generation 103 finished (4m 53.1s)
+   Function value = 56946.96854
+
+Generation 104 finished (4m 38.4s)
+   Function value = 66124.71361
+
+Generation 105 finished (4m 51.6s)
+   Function value = 67208.23917
+
+Generation 106 finished (4m 41.6s)
+   Function value = 60921.724
+
+Generation 107 finished (4m 44.0s)
+   Function value = 66430.84529
+
+Generation 108 finished (4m 31.2s)
+   Function value = 62576.22911
+
+Generation 109 finished (4m 43.8s)
+   Function value = 67546.08184
+
+Generation 110 finished (4m 52.2s)
+   Function value = 60989.27314
+
+Generation 111 finished (5m 2.5s)
+   Function value = 63219.00492
+
+Generation 112 finished (4m 40.5s)
+   Function value = 65725.5941
+
+Generation 113 finished (4m 53.4s)
+   Function value = 59694.92639
+
+Generation 114 finished (4m 33.6s)
+   Function value = 66398.65549
+
+Generation 115 finished (4m 44.2s)
+   Function value = 58863.22475
+
+Generation 116 finished (4m 18.0s)
+   Function value = 64649.91114
+
+Generation 117 finished (5m 19.3s)
+   Function value = 66051.67506
+
+Generation 118 finished (4m 19.4s)
+   Function value = 65865.18814
+
+Generation 119 finished (4m 36.5s)
+   Function value = 57291.04358
+
+Generation 120 finished (4m 48.6s)
+   Function value = 65007.37881
+
+Generation 121 finished (4m 11.8s)
+   Function value = 65568.87589
+
+Generation 122 finished (4m 10.3s)
+   Function value = 65412.28495
+
+Generation 123 finished (5m 5.5s)
+   Function value = 66044.59466
+
+Generation 124 finished (4m 11.5s)
+   Function value = 66218.27502
+
+Generation 125 finished (4m 50.5s)
+   Function value = 63269.63012
+
+Generation 126 finished (4m 10.2s)
+   Function value = 64166.03539
+
+Generation 127 finished (4m 35.7s)
+   Function value = 64303.4667
+
+Generation 128 finished (4m 42.7s)
+   Function value = 65981.6466
+
+Generation 129 finished (4m 27.4s)
+   Function value = 66823.76623
+
+Generation 130 finished (4m 45.0s)
+   Function value = 63859.02716
+
+Generation 131 finished (4m 29.1s)
+   Function value = 65191.16926
+
+Generation 132 finished (4m 24.2s)
+   Function value = 65587.35828
+
+Generation 133 finished (4m 41.4s)
+   Function value = 65086.48812
+
+Generation 134 finished (4m 53.0s)
+   Function value = 65430.4821
+
+Generation 135 finished (4m 47.4s)
+   Function value = 65739.51267
+
+Generation 136 finished (4m 38.9s)
+   Function value = 63018.53933
+
+Generation 137 finished (4m 37.6s)
+   Function value = 65656.40705
+
+Generation 138 finished (4m 40.3s)
+   Function value = 60449.14312
+
+Generation 139 finished (4m 46.6s)
+   Function value = 65826.23274
+
+Generation 140 finished (4m 51.0s)
+   Function value = 64345.56451
+
+Generation 141 finished (4m 41.8s)
+   Function value = 64104.00086
+
+Generation 142 finished (4m 36.0s)
+   Function value = 64940.3164
+
+Generation 143 finished (4m 17.4s)
+   Function value = 65385.16841
+
+Generation 144 finished (4m 48.5s)
+   Function value = 65063.58928
+
+Generation 145 finished (4m 45.5s)
+   Function value = 64095.11348
+
+Generation 146 finished (4m 43.0s)
+   Function value = 64735.54901
+
+Generation 147 finished (4m 30.7s)
+   Function value = 65801.92238
+
+Generation 148 finished (4m 57.7s)
+   Function value = 64361.13423
+
+Generation 149 finished (4m 47.1s)
+   Function value = 65883.29061
+
+Generation 150 finished (4m 53.0s)
+   Function value = 65109.27968
+
+Generation 151 finished (4m 28.3s)
+   Function value = 65235.68725
+
+Generation 152 finished (4m 33.7s)
+   Function value = 65805.23439
+
+Generation 153 finished (4m 46.7s)
+   Function value = 63437.80873
+
+Generation 154 finished (4m 49.9s)
+   Function value = 65235.00607
+
+Generation 155 finished (4m 49.2s)
+   Function value = 64116.00033
+
+Generation 156 finished (4m 39.4s)
+   Function value = 64985.36284
+
+Generation 157 finished (4m 48.4s)
+   Function value = 65721.95037
+
+Generation 158 finished (4m 42.5s)
+   Function value = 64967.70218
+
+Generation 159 finished (4m 39.6s)
+   Function value = 63662.25205
+
+Generation 160 finished (4m 22.5s)
+   Function value = 64816.26896
+
+Generation 161 finished (4m 5.5s)
+   Function value = 65702.7986
+
+Generation 162 finished (4m 52.3s)
+   Function value = 65141.14221
+
+Generation 163 finished (4m 52.8s)
+   Function value = 65791.44611
+
+Generation 164 finished (4m 57.4s)
+   Function value = 55843.9714
+
+Generation 165 finished (4m 55.1s)
+   Function value = 64852.0338
+
+Generation 166 finished (4m 43.6s)
+   Function value = 60517.35663
+
+Generation 167 finished (4m 54.3s)
+   Function value = 62430.36472
+
+Generation 168 finished (4m 44.3s)
+   Function value = 63482.44547
+
+Generation 169 finished (4m 38.0s)
+   Function value = 65345.65259
+
+Generation 170 finished (4m 41.6s)
+   Function value = 65332.86824
+
+Generation 171 finished (4m 33.9s)
+   Function value = 63861.84049
+
+Generation 172 finished (4m 46.4s)
+   Function value = 65328.71859
+
+Generation 173 finished (4m 46.4s)
+   Function value = 64322.70927
+
+Generation 174 finished (4m 40.6s)
+   Function value = 58983.73329
+
+Generation 175 finished (4m 33.3s)
+   Function value = 65320.02099
+
+Generation 176 finished (5m 1.3s)
+   Function value = 64609.90142
+
+Generation 177 finished (4m 44.5s)
+   Function value = 64433.4377
+
+Generation 178 finished (4m 54.7s)
+   Function value = 65115.82332
+
+Generation 179 finished (4m 9.3s)
+   Function value = 63172.9097
+
+Generation 180 finished (4m 53.2s)
+   Function value = 65365.47542
+
+Generation 181 finished (4m 53.3s)
+   Function value = 64787.98413
+
+Generation 182 finished (4m 52.6s)
+   Function value = 65031.00708
+
+Generation 183 finished (4m 29.6s)
+   Function value = 63503.2034
+
+Generation 184 finished (4m 7.6s)
+   Function value = 65434.49353
+
+Generation 185 finished (4m 41.2s)
+   Function value = 65586.08942
+
+Generation 186 finished (4m 36.6s)
+   Function value = 65518.09614
+
+Generation 187 finished (4m 38.4s)
+   Function value = 64802.09755
+
+Generation 188 finished (4m 38.4s)
+   Function value = 65395.09927
+
+Generation 189 finished (4m 56.6s)
+   Function value = 62038.66836
+
+Generation 190 finished (4m 53.0s)
+   Function value = 65554.55993
+
+Generation 191 finished (4m 46.0s)
+   Function value = 63242.94528
+
+Generation 192 finished (4m 51.3s)
+   Function value = 65408.99375
+
+Generation 193 finished (4m 32.1s)
+   Function value = 64512.4791
+
+Generation 194 finished (4m 35.7s)
+   Function value = 64734.21874
+
+Generation 195 finished (4m 45.1s)
+   Function value = 61202.53289
+
+Generation 196 finished (4m 38.1s)
+   Function value = 63736.26264
+
+Generation 197 finished (4m 38.9s)
+   Function value = 64851.38156
+
+Generation 198 finished (4m 49.5s)
+   Function value = 64731.70052
+
+Generation 199 finished (4m 39.5s)
+   Function value = 65031.95632
+
+Generation 200 finished (5m 8.0s)
+   Function value = 64518.10316
+
+	Phase 1 finished (15h 52m 15.9s)
+	Function value: 100837
+	Parameter values: -4.25 -5 1.38 -1.9 -2.52 -1.6 7.66 -1.34 -0.65 0.196 -3.16 -1.18 -1.04 -2.53 -3.35 -0.00467 -3.17 -1.27 -1.45 -1.54 -1.35 -2.78 -2.22 -0.925 -0.716 1.43 1.3 1.03 -0.372 2.83 2.44 0.996 -0.0659 0.141 2.04 0.495 0.268 1.35 0.2 1.03 1.51
+
+- Phase 2: 58 out of 758 parameters are currently active.
+	Started at Sat Sep  5 21:05:15 2026.
+
+	Using optimization method 'AHR-ES'.
+Optimizing 'popsize' to work with 23 cores...
+	Optimal population size (16) has been increased to 23.
+
+Generation   1 finished (3m 52.8s)
+   Function value = 65481.28682
+
+Generation   2 finished (4m 19.4s)
+   Function value = 124872.5334
+
+Generation   3 finished (4m 19.2s)
+   Function value = 87658.71942
+
+Generation   4 finished (4m 26.6s)
+   Function value = 109675.1966
+
+Generation   5 finished (4m 7.1s)
+   Function value = 109238.3627
+
+Generation   6 finished (4m 27.1s)
+   Function value = 126556.9588
+
+Generation   7 finished (4m 0.8s)
+   Function value = 120014.909
+
+Generation   8 finished (4m 21.8s)
+   Function value = 121051.7462
+
+Generation   9 finished (4m 41.5s)
+   Function value = 100902.1094
+
+Generation  10 finished (4m 38.6s)
+   Function value = 101224.4884
+
+Generation  11 finished (4m 29.6s)
+   Function value = 101557.1086
+
+Generation  12 finished (3m 55.0s)
+   Function value = 111480.032
+
+Generation  13 finished (4m 53.5s)
+   Function value = 114274.5896
+
+Generation  14 finished (5m 23.7s)
+   Function value = 99653.11912
+
+Generation  15 finished (4m 16.4s)
+   Function value = 108073.1651
+
+Generation  16 finished (4m 46.0s)
+   Function value = 105611.5095
+
+Generation  17 finished (4m 27.3s)
+   Function value = 89352.82685
+
+Generation  18 finished (4m 25.1s)
+   Function value = 113383.7536
+
+Generation  19 finished (4m 52.1s)
+   Function value = 105400.5668
+
+Generation  20 finished (3m 43.5s)
+   Function value = 98218.31488
+
+Generation  21 finished (3m 48.0s)
+   Function value = 103746.8829
+
+Generation  22 finished (3m 55.6s)
+   Function value = 85449.52021
+
+Generation  23 finished (4m 20.3s)
+   Function value = 86518.26551
+
+Generation  24 finished (4m 45.8s)
+   Function value = 88472.38581
+
+Generation  25 finished (4m 4.9s)
+   Function value = 85397.34995
+
+Generation  26 finished (3m 35.9s)
+   Function value = 82795.54934
+
+Generation  27 finished (4m 5.7s)
+   Function value = 87687.19821
+
+Generation  28 finished (3m 51.6s)
+   Function value = 89300.6028
+
+Generation  29 finished (4m 4.9s)
+   Function value = 71576.63864
+
+Generation  30 finished (3m 52.3s)
+   Function value = 76417.55016
+
+Generation  31 finished (4m 27.5s)
+   Function value = 84832.74163
+
+Generation  32 finished (4m 34.3s)
+   Function value = 72106.54546
+
+Generation  33 finished (4m 35.7s)
+   Function value = 78371.49303
+
+Generation  34 finished (4m 18.1s)
+   Function value = 79471.41309
+
+Generation  35 finished (4m 20.4s)
+   Function value = 74755.05735
+
+Generation  36 finished (4m 17.2s)
+   Function value = 76248.28761
+
+Generation  37 finished (4m 43.6s)
+   Function value = 78694.682
+
+Generation  38 finished (4m 50.0s)
+   Function value = 76621.03062
+
+Generation  39 finished (4m 6.6s)
+   Function value = 79915.29258
+
+Generation  40 finished (4m 33.0s)
+   Function value = 77286.2445
+
+Generation  41 finished (4m 1.1s)
+   Function value = 78227.08013
+
+Generation  42 finished (4m 36.0s)
+   Function value = 76713.44812
+
+Generation  43 finished (4m 38.5s)
+   Function value = 80378.10166
+
+Generation  44 finished (3m 59.4s)
+   Function value = 81260.61988
+
+Generation  45 finished (4m 21.7s)
+   Function value = 85566.11976
+
+Generation  46 finished (4m 45.7s)
+   Function value = 71830.46114
+
+Generation  47 finished (4m 48.7s)
+   Function value = 79394.97464
+
+Generation  48 finished (4m 33.1s)
+   Function value = 75536.34231
+
+Generation  49 finished (4m 32.4s)
+   Function value = 78406.41036
+
+Generation  50 finished (4m 50.4s)
+   Function value = 85621.98054
+
+Generation  51 finished (4m 30.9s)
+   Function value = 86268.8377
+
+Generation  52 finished (4m 44.5s)
+   Function value = 80630.04578
+
+Generation  53 finished (4m 47.9s)
+   Function value = 81535.61886
+
+Generation  54 finished (4m 27.3s)
+   Function value = 76228.16462
+
+Generation  55 finished (4m 20.8s)
+   Function value = 87472.83658
+
+Generation  56 finished (4m 54.5s)
+   Function value = 60336.77525
+
+Generation  57 finished (5m 1.8s)
+   Function value = 74091.65633
+
+Generation  58 finished (4m 42.3s)
+   Function value = 70873.09684
+
+Generation  59 finished (3m 56.1s)
+   Function value = 73065.23498
+
+Generation  60 finished (5m 0.4s)
+   Function value = 75649.58942
+
+Generation  61 finished (4m 10.9s)
+   Function value = 73290.58104
+
+Generation  62 finished (4m 27.5s)
+   Function value = 76701.54183
+
+Generation  63 finished (4m 36.7s)
+   Function value = 76452.02863
+
+Generation  64 finished (4m 49.7s)
+   Function value = 77601.08745
+
+Generation  65 finished (4m 46.1s)
+   Function value = 72692.50018
+
+Generation  66 finished (4m 16.0s)
+   Function value = 75844.41203
+
+Generation  67 finished (5m 31.4s)
+   Function value = 70086.04908
+
+Generation  68 finished (4m 48.0s)
+   Function value = 68808.77341
+
+Generation  69 finished (4m 48.6s)
+   Function value = 71014.94305
+
+Generation  70 finished (4m 48.1s)
+   Function value = 68627.28749
+
+Generation  71 finished (5m 0.2s)
+   Function value = 68129.02841
+
+Generation  72 finished (4m 5.3s)
+   Function value = 68396.05905
+
+Generation  73 finished (4m 49.9s)
+   Function value = 69421.01131
+
+Generation  74 finished (4m 44.9s)
+   Function value = 68798.46799
+
+Generation  75 finished (4m 37.4s)
+   Function value = 68400.65426
+
+Generation  76 finished (4m 10.5s)
+   Function value = 68851.859
+
+Generation  77 finished (4m 12.7s)
+   Function value = 68688.51853
+
+Generation  78 finished (4m 31.1s)
+   Function value = 61296.50682
+
+Generation  79 finished (4m 41.5s)
+   Function value = 69236.6095
+
+Generation  80 finished (4m 47.5s)
+   Function value = 68216.08281
+
+Generation  81 finished (5m 2.2s)
+   Function value = 68918.89536
+
+Generation  82 finished (4m 47.8s)
+   Function value = 69088.06984
+
+Generation  83 finished (4m 21.2s)
+   Function value = 67379.82407
+
+Generation  84 finished (4m 56.8s)
+   Function value = 72866.67558
+
+Generation  85 finished (4m 32.4s)
+   Function value = 68222.585
+
+Generation  86 finished (4m 46.6s)
+   Function value = 67854.00921
+
+Generation  87 finished (4m 22.6s)
+   Function value = 65996.05861
+
+Generation  88 finished (4m 19.4s)
+   Function value = 65992.24615
+
+Generation  89 finished (4m 16.1s)
+   Function value = 69919.24287
+
+Generation  90 finished (4m 17.4s)
+   Function value = 68527.36803
+
+Generation  91 finished (4m 14.9s)
+   Function value = 68442.68307
+
+Generation  92 finished (4m 56.5s)
+   Function value = 62206.41889
+
+Generation  93 finished (4m 30.9s)
+   Function value = 65233.48099
+
+Generation  94 finished (4m 25.1s)
+   Function value = 67832.57679
+
+Generation  95 finished (4m 48.8s)
+   Function value = 68274.65003
+
+Generation  96 finished (4m 33.4s)
+   Function value = 69403.89056
+
+Generation  97 finished (4m 31.2s)
+   Function value = 70565.22907
+
+Generation  98 finished (5m 9.6s)
+   Function value = 69010.21983
+
+Generation  99 finished (4m 41.6s)
+   Function value = 69889.93655
+
+Generation 100 finished (4m 39.1s)
+   Function value = 69555.62519
+
+Generation 101 finished (4m 31.3s)
+   Function value = 70124.29973
+
+Generation 102 finished (4m 57.4s)
+   Function value = 67235.19551
+
+Generation 103 finished (4m 42.3s)
+   Function value = 70184.44833
+
+Generation 104 finished (4m 24.7s)
+   Function value = 69420.4765
+
+Generation 105 finished (4m 7.8s)
+   Function value = 67166.34349
+
+Generation 106 finished (5m 12.7s)
+   Function value = 67161.81024
+
+Generation 107 finished (4m 23.3s)
+   Function value = 66562.10525
+
+Generation 108 finished (4m 17.5s)
+   Function value = 57045.21232
+
+Generation 109 finished (4m 38.7s)
+   Function value = 67677.43534
+
+Generation 110 finished (4m 19.1s)
+   Function value = 67870.82735
+
+Generation 111 finished (5m 2.0s)
+   Function value = 63405.58875
+
+Generation 112 finished (4m 41.1s)
+   Function value = 69367.38716
+
+Generation 113 finished (4m 42.9s)
+   Function value = 66501.96954
+
+Generation 114 finished (4m 60.0s)
+   Function value = 68056.25027
+
+Generation 115 finished (4m 22.9s)
+   Function value = 68049.1944
+
+Generation 116 finished (4m 34.7s)
+   Function value = 68370.44359
+
+Generation 117 finished (4m 51.8s)
+   Function value = 68209.75091
+
+Generation 118 finished (4m 47.3s)
+   Function value = 68838.76334
+
+Generation 119 finished (4m 5.5s)
+   Function value = 67256.7752
+
+Generation 120 finished (4m 55.5s)
+   Function value = 68098.84663
+
+Generation 121 finished (3m 57.2s)
+   Function value = 69798.7483
+
+Generation 122 finished (4m 8.8s)
+   Function value = 68135.8368
+
+Generation 123 finished (4m 54.4s)
+   Function value = 68252.2925
+
+Generation 124 finished (4m 34.5s)
+   Function value = 68842.86461
+
+Generation 125 finished (4m 40.2s)
+   Function value = 68310.57825
+
+Generation 126 finished (4m 33.0s)
+   Function value = 64393.93174
+
+Generation 127 finished (4m 42.7s)
+   Function value = 66706.27365
+
+Generation 128 finished (5m 2.3s)
+   Function value = 68520.24808
+
+Generation 129 finished (4m 24.9s)
+   Function value = 66799.19386
+
+Generation 130 finished (4m 10.9s)
+   Function value = 66671.61328
+
+Generation 131 finished (4m 9.6s)
+   Function value = 68546.10146
+
+Generation 132 finished (4m 36.4s)
+   Function value = 59996.78247
+
+Generation 133 finished (4m 27.9s)
+   Function value = 59588.73373
+
+Generation 134 finished (4m 55.1s)
+   Function value = 67713.05598
+
+Generation 135 finished (4m 39.8s)
+   Function value = 68071.39808
+
+Generation 136 finished (4m 36.7s)
+   Function value = 68685.01521
+
+Generation 137 finished (4m 30.8s)
+   Function value = 68463.79984
+
+Generation 138 finished (4m 37.1s)
+   Function value = 68003.07212
+
+Generation 139 finished (4m 31.3s)
+   Function value = 69474.24095
+
+Generation 140 finished (4m 5.3s)
+   Function value = 68176.48213
+
+Generation 141 finished (4m 43.0s)
+   Function value = 66936.36536
+
+Generation 142 finished (4m 42.3s)
+   Function value = 66007.82197
+
+Generation 143 finished (4m 8.2s)
+   Function value = 67808.89288
+
+Generation 144 finished (4m 29.2s)
+   Function value = 64245.95427
+
+Generation 145 finished (4m 55.3s)
+   Function value = 66077.25857
+
+Generation 146 finished (4m 51.8s)
+   Function value = 67288.82341
+
+Generation 147 finished (4m 43.9s)
+   Function value = 66470.65862
+
+Generation 148 finished (4m 22.3s)
+   Function value = 67087.62828
+
+Generation 149 finished (4m 53.4s)
+   Function value = 67757.45282
+
+Generation 150 finished (4m 41.2s)
+   Function value = 64883.85962
+
+Generation 151 finished (4m 12.1s)
+   Function value = 67817.61632
+
+Generation 152 finished (3m 58.4s)
+   Function value = 67874.79442
+
+Generation 153 finished (4m 17.0s)
+   Function value = 63270.10139
+
+Generation 154 finished (4m 45.1s)
+   Function value = 67003.36929
+
+Generation 155 finished (4m 36.8s)
+   Function value = 63661.01124
+
+Generation 156 finished (4m 35.3s)
+   Function value = 67402.92042
+
+Generation 157 finished (4m 49.4s)
+   Function value = 68009.15428
+
+Generation 158 finished (4m 5.9s)
+   Function value = 66834.86969
+
+Generation 159 finished (5m 1.4s)
+   Function value = 67366.01461
+
+Generation 160 finished (4m 52.7s)
+   Function value = 67239.02795
+
+Generation 161 finished (5m 3.6s)
+   Function value = 68232.82342
+
+Generation 162 finished (4m 40.8s)
+   Function value = 62362.60439
+
+Generation 163 finished (4m 44.7s)
+   Function value = 64068.71615
+
+Generation 164 finished (4m 26.4s)
+   Function value = 63026.63465
+
+Generation 165 finished (4m 28.4s)
+   Function value = 59487.08812
+
+Generation 166 finished (4m 34.8s)
+   Function value = 66631.74022
+
+Generation 167 finished (4m 32.6s)
+   Function value = 63671.61813
+
+Generation 168 finished (4m 31.1s)
+   Function value = 65622.96044
+
+Generation 169 finished (4m 44.2s)
+   Function value = 66458.0426
+
+Generation 170 finished (4m 35.2s)
+   Function value = 66935.30015
+
+Generation 171 finished (4m 46.2s)
+   Function value = 60967.20298
+
+Generation 172 finished (4m 39.6s)
+   Function value = 63485.14879
+
+Generation 173 finished (4m 31.6s)
+   Function value = 67118.36943
+
+Generation 174 finished (5m 2.9s)
+   Function value = 60015.26174
+
+Generation 175 finished (4m 37.8s)
+   Function value = 66888.69649
+
+Generation 176 finished (4m 39.5s)
+   Function value = 61927.68405
+
+Generation 177 finished (4m 39.4s)
+   Function value = 64773.00389
+
+Generation 178 finished (4m 25.0s)
+   Function value = 66484.3447
+
+Generation 179 finished (4m 22.2s)
+   Function value = 60149.36533
+
+Generation 180 finished (4m 40.1s)
+   Function value = 60550.77067
+
+Generation 181 finished (4m 33.6s)
+   Function value = 66319.97739
+
+Generation 182 finished (4m 50.1s)
+   Function value = 65964.99736
+
+Generation 183 finished (5m 5.5s)
+   Function value = 60394.93287
+
+Generation 184 finished (4m 38.0s)
+   Function value = 66269.09293
+
+Generation 185 finished (4m 44.1s)
+   Function value = 62722.91043
+
+Generation 186 finished (4m 57.1s)
+   Function value = 67066.38327
+
+Generation 187 finished (5m 0.0s)
+   Function value = 54094.24004
+
+Generation 188 finished (4m 55.2s)
+   Function value = 66808.63632
+
+Generation 189 finished (4m 45.4s)
+   Function value = 63519.92931
+
+Generation 190 finished (4m 44.2s)
+   Function value = 67391.27407
+
+Generation 191 finished (4m 20.8s)
+   Function value = 66506.82188
+
+Generation 192 finished (4m 35.1s)
+   Function value = 66482.90135
+
+Generation 193 finished (4m 48.3s)
+   Function value = 66102.66629
+
+Generation 194 finished (5m 0.9s)
+   Function value = 67163.89397
+
+Generation 195 finished (4m 44.8s)
+   Function value = 63853.11529
+
+Generation 196 finished (4m 41.5s)
+   Function value = 65892.69425
+
+Generation 197 finished (4m 49.4s)
+   Function value = 65588.60026
+
+Generation 198 finished (4m 47.1s)
+   Function value = 66757.29617
+
+Generation 199 finished (5m 1.0s)
+   Function value = 65987.47097
+
+Generation 200 finished (4m 37.4s)
+   Function value = 66857.1548
+
+	Phase 2 finished (15h 17m 4.5s)
+	Function value: 68038.7
+	Parameter values: -3.54 -7.67 4.06 0.254 -1.49 0.221 2.43 -1.51 -1.71 0.244 -2.4 -1.31 -0.976 -2.93 -1.94 -0.575 -1.69 -3.37 -3.28 -2.64 -2.84 -1.65 -1.56 -0.921 -0.227 0.665 1.15 0.25 -0.126 2.85 2.26 1.17 -0.0197 0.86 2.13 -0.56 0.618 1.69 0.0773 1.17 2.03 1.61 0.943 1.06 1.87 0.777 1.93 1.04 1.39 1.8 1.59 1.69 1.7 1.63 1.13 1.6 0.792 1.23
+
+- Phase 3: 153 out of 758 parameters are currently active.
+	Started at Sun Sep  6 12:25:39 2026.
+
+	Using optimization method 'AHR-ES'.
+Optimizing 'popsize' to work with 23 cores...
+	Optimal population size (19) has been increased to 23.
+
+Generation   1 finished (3m 41.6s)
+   Function value = 67057.52351
+
+Generation   2 finished (4m 45.9s)
+   Function value = 91097.10535
+
+Generation   3 finished (3m 52.5s)
+   Function value = 122613.2458
+
+Generation   4 finished (4m 2.4s)
+   Function value = 94097.44979
+
+Generation   5 finished (4m 7.0s)
+   Function value = 91130.62068
+
+Generation   6 finished (4m 7.8s)
+   Function value = 90805.37911
+
+Generation   7 finished (4m 24.4s)
+   Function value = 78080.90083
+
+Generation   8 finished (4m 7.3s)
+   Function value = 87930.9939
+
+Generation   9 finished (4m 31.5s)
+   Function value = 113673.9631
+
+Generation  10 finished (3m 40.5s)
+   Function value = 118563.4745
+
+Generation  11 finished (4m 7.0s)
+   Function value = 103247.5919
+
+Generation  12 finished (4m 17.9s)
+   Function value = 117635.7872
+
+Generation  13 finished (3m 57.4s)
+   Function value = 103430.2936
+
+Generation  14 finished (3m 53.8s)
+   Function value = 94045.06797
+
+Generation  15 finished (4m 33.7s)
+   Function value = 106897.3937
+
+Generation  16 finished (4m 18.5s)
+   Function value = 106265.2297
+
+Generation  17 finished (4m 16.1s)
+   Function value = 97582.19132
+
+Generation  18 finished (4m 2.5s)
+   Function value = 86630.21416
+
+Generation  19 finished (4m 6.6s)
+   Function value = 106189.5064
+
+Generation  20 finished (4m 35.4s)
+   Function value = 88575.73811
+
+Generation  21 finished (4m 13.3s)
+   Function value = 94532.0637
+
+Generation  22 finished (4m 22.0s)
+   Function value = 96176.64367
+
+Generation  23 finished (4m 1.7s)
+   Function value = 99029.09134
+
+Generation  24 finished (4m 22.3s)
+   Function value = 92909.8756
+
+Generation  25 finished (4m 50.2s)
+   Function value = 83842.14648
+
+Generation  26 finished (4m 9.8s)
+   Function value = 106389.9839
+
+Generation  27 finished (4m 8.4s)
+   Function value = 94032.55917
+
+Generation  28 finished (4m 34.5s)
+   Function value = 102970.4626
+
+Generation  29 finished (4m 23.0s)
+   Function value = 84995.28166
+
+Generation  30 finished (4m 23.8s)
+   Function value = 86146.03801
+
+Generation  31 finished (4m 41.6s)
+   Function value = 90277.12661
+
+Generation  32 finished (4m 22.2s)
+   Function value = 88591.6471
+
+Generation  33 finished (4m 5.6s)
+   Function value = 86959.662
+
+Generation  34 finished (4m 36.3s)
+   Function value = 94007.50066
+
+Generation  35 finished (5m 2.5s)
+   Function value = 85334.92389
+
+Generation  36 finished (4m 52.2s)
+   Function value = 86863.44544
+
+Generation  37 finished (5m 6.9s)
+   Function value = 77733.90627
+
+Generation  38 finished (5m 19.0s)
+   Function value = 86305.41878
+
+Generation  39 finished (4m 38.7s)
+   Function value = 91974.82489
+
+Generation  40 finished (4m 20.2s)
+   Function value = 84980.66445
+
+Generation  41 finished (4m 26.3s)
+   Function value = 84233.31871
+
+Generation  42 finished (4m 42.6s)
+   Function value = 78573.01822
+
+Generation  43 finished (5m 9.2s)
+   Function value = 82309.54242
+
+Generation  44 finished (4m 30.9s)
+   Function value = 82937.11626
+
+Generation  45 finished (4m 41.2s)
+   Function value = 87409.08779
+
+Generation  46 finished (4m 56.8s)
+   Function value = 83417.98134
+
+Generation  47 finished (5m 0.7s)
+   Function value = 85439.80254
+
+Generation  48 finished (4m 43.2s)
+   Function value = 82169.26316
+
+Generation  49 finished (4m 41.6s)
+   Function value = 85724.01062
+
+Generation  50 finished (4m 30.0s)
+   Function value = 79289.93521
+
+Generation  51 finished (4m 51.3s)
+   Function value = 86250.27009
+
+Generation  52 finished (4m 58.4s)
+   Function value = 84494.13251
+
+Generation  53 finished (4m 45.6s)
+   Function value = 79938.40273
+
+Generation  54 finished (4m 54.0s)
+   Function value = 86831.45159
+
+Generation  55 finished (4m 47.5s)
+   Function value = 84647.43306
+
+Generation  56 finished (4m 44.1s)
+   Function value = 90517.29242
+
+Generation  57 finished (4m 21.9s)
+   Function value = 82876.40614
+
+Generation  58 finished (4m 18.1s)
+   Function value = 88226.91506
+
+Generation  59 finished (4m 38.3s)
+   Function value = 84927.99888
+
+Generation  60 finished (4m 36.5s)
+   Function value = 78922.88698
+
+Generation  61 finished (4m 54.2s)
+   Function value = 85625.01209
+
+Generation  62 finished (4m 45.2s)
+   Function value = 84215.81413
+
+Generation  63 finished (4m 24.2s)
+   Function value = 84262.16574
+
+Generation  64 finished (4m 19.2s)
+   Function value = 84539.78823
+
+Generation  65 finished (4m 45.0s)
+   Function value = 85067.87281
+
+Generation  66 finished (4m 38.6s)
+   Function value = 79191.59097
+
+Generation  67 finished (4m 27.6s)
+   Function value = 84939.41822
+
+Generation  68 finished (4m 50.3s)
+   Function value = 84810.39964
+
+Generation  69 finished (4m 42.2s)
+   Function value = 78559.17247
+
+Generation  70 finished (4m 56.4s)
+   Function value = 82419.33847
+
+Generation  71 finished (4m 29.4s)
+   Function value = 84335.30115
+
+Generation  72 finished (4m 48.7s)
+   Function value = 84657.86376
+
+Generation  73 finished (4m 57.5s)
+   Function value = 87055.14335
+
+Generation  74 finished (4m 37.5s)
+   Function value = 80099.74951
+
+Generation  75 finished (4m 43.0s)
+   Function value = 84501.88264
+
+Generation  76 finished (4m 22.9s)
+   Function value = 81610.10891
+
+Generation  77 finished (5m 15.0s)
+   Function value = 81579.32181
+
+Generation  78 finished (4m 22.3s)
+   Function value = 80949.32488
+
+Generation  79 finished (4m 13.6s)
+   Function value = 80103.52344
+
+Generation  80 finished (4m 40.9s)
+   Function value = 81826.62118
+
+Generation  81 finished (5m 12.5s)
+   Function value = 77626.39347
+
+Generation  82 finished (4m 24.6s)
+   Function value = 76424.08057
+
+Generation  83 finished (4m 33.8s)
+   Function value = 75634.36133
+
+Generation  84 finished (4m 44.2s)
+   Function value = 76662.19353
+
+Generation  85 finished (4m 17.2s)
+   Function value = 77592.15965
+
+Generation  86 finished (4m 14.2s)
+   Function value = 79593.85288
+
+Generation  87 finished (4m 52.9s)
+   Function value = 78220.63695
+
+Generation  88 finished (4m 31.8s)
+   Function value = 69323.22411
+
+Generation  89 finished (4m 58.2s)
+   Function value = 79190.99052
+
+Generation  90 finished (4m 16.1s)
+   Function value = 79660.28456
+
+Generation  91 finished (4m 32.1s)
+   Function value = 79056.93128
+
+Generation  92 finished (4m 48.7s)
+   Function value = 78815.85484
+
+Generation  93 finished (4m 2.1s)
+   Function value = 79297.4956
+
+Generation  94 finished (4m 31.5s)
+   Function value = 82308.97373
+
+Generation  95 finished (4m 24.0s)
+   Function value = 81433.2216
+
+Generation  96 finished (4m 37.0s)
+   Function value = 79860.93484
+
+Generation  97 finished (4m 32.7s)
+   Function value = 82724.49573
+
+Generation  98 finished (4m 38.9s)
+   Function value = 79416.13311
+
+Generation  99 finished (4m 21.8s)
+   Function value = 64770.317
+
+Generation 100 finished (4m 17.0s)
+   Function value = 78150.38209
+
+Generation 101 finished (4m 21.0s)
+   Function value = 79302.29192
+
+Generation 102 finished (4m 1.9s)
+   Function value = 79779.43869
+
+Generation 103 finished (4m 22.2s)
+   Function value = 77157.98045
+
+Generation 104 finished (4m 32.6s)
+   Function value = 77758.24578
+
+Generation 105 finished (4m 30.5s)
+   Function value = 77650.5407
+
+Generation 106 finished (5m 10.2s)
+   Function value = 76439.33959
+
+Generation 107 finished (4m 30.8s)
+   Function value = 80013.96968
+
+Generation 108 finished (4m 30.1s)
+   Function value = 77039.73853
+
+Generation 109 finished (4m 42.6s)
+   Function value = 79255.85214
+
+Generation 110 finished (4m 34.8s)
+   Function value = 80976.62093
+
+Generation 111 finished (4m 53.9s)
+   Function value = 71627.15319
+
+Generation 112 finished (4m 51.2s)
+   Function value = 75618.84796
+
+Generation 113 finished (4m 41.3s)
+   Function value = 77911.25383
+
+Generation 114 finished (5m 16.9s)
+   Function value = 77719.0893
+
+Generation 115 finished (5m 1.7s)
+   Function value = 73154.42201
+
+Generation 116 finished (4m 49.7s)
+   Function value = 77436.12902
+
+Generation 117 finished (4m 38.1s)
+   Function value = 75923.2494
+
+Generation 118 finished (4m 22.8s)
+   Function value = 78514.63342
+
+Generation 119 finished (4m 5.5s)
+   Function value = 76628.47127
+
+Generation 120 finished (5m 12.4s)
+   Function value = 77273.92629
+
+Generation 121 finished (4m 35.8s)
+   Function value = 78193.38339
+
+Generation 122 finished (4m 43.2s)
+   Function value = 77089.26677
+
+Generation 123 finished (4m 16.8s)
+   Function value = 71875.97286
+
+Generation 124 finished (4m 32.2s)
+   Function value = 73558.50036
+
+Generation 125 finished (4m 23.4s)
+   Function value = 75544.29124
+
+Generation 126 finished (4m 39.3s)
+   Function value = 71863.02327
+
+Generation 127 finished (5m 2.4s)
+   Function value = 74854.83272
+
+Generation 128 finished (5m 10.0s)
+   Function value = 58634.53538
+
+Generation 129 finished (4m 12.9s)
+   Function value = 75909.83989
+
+Generation 130 finished (4m 50.8s)
+   Function value = 69497.6244
+
+Generation 131 finished (4m 48.9s)
+   Function value = 70549.12501
+
+Generation 132 finished (4m 28.4s)
+   Function value = 70254.7684
+
+Generation 133 finished (4m 43.2s)
+   Function value = 72349.22276
+
+Generation 134 finished (4m 36.5s)
+   Function value = 68675.85141
+
+Generation 135 finished (4m 29.2s)
+   Function value = 71320.29681
+
+Generation 136 finished (4m 21.8s)
+   Function value = 61635.77602
+
+Generation 137 finished (4m 21.4s)
+   Function value = 69183.37129
+
+Generation 138 finished (4m 28.5s)
+   Function value = 64490.81939
+
+Generation 139 finished (4m 37.7s)
+   Function value = 70957.68755
+
+Generation 140 finished (4m 18.3s)
+   Function value = 67861.99685
+
+Generation 141 finished (4m 52.2s)
+   Function value = 62326.75914
+
+Generation 142 finished (4m 43.2s)
+   Function value = 69065.18264
+
+Generation 143 finished (4m 20.3s)
+   Function value = 66552.40161
+
+Generation 144 finished (3m 52.7s)
+   Function value = 67623.78229
+
+Generation 145 finished (5m 7.8s)
+   Function value = 69278.10577
+
+Generation 146 finished (5m 17.7s)
+   Function value = 67666.50627
+
+Generation 147 finished (4m 28.8s)
+   Function value = 58610.44153
+
+Generation 148 finished (4m 14.9s)
+   Function value = 69203.06413
+
+Generation 149 finished (4m 31.9s)
+   Function value = 68644.47861
+
+Generation 150 finished (5m 9.5s)
+   Function value = 67413.84125
+
+Generation 151 finished (5m 13.0s)
+   Function value = 67959.57303
+
+Generation 152 finished (5m 13.9s)
+   Function value = 63815.96046
+
+Generation 153 finished (4m 45.9s)
+   Function value = 68436.98396
+
+Generation 154 finished (4m 21.0s)
+   Function value = 51602.85118
+
+Generation 155 finished (4m 30.9s)
+   Function value = 68235.46885
+
+Generation 156 finished (4m 18.0s)
+   Function value = 68330.1178
+
+Generation 157 finished (4m 57.8s)
+   Function value = 68964.26297
+
+Generation 158 finished (5m 12.4s)
+   Function value = 66886.60114
+
+Generation 159 finished (4m 59.0s)
+   Function value = 67640.18025
+
+Generation 160 finished (5m 4.9s)
+   Function value = 66841.7849
+
+Generation 161 finished (4m 34.7s)
+   Function value = 64179.45776
+
+Generation 162 finished (4m 24.7s)
+   Function value = 62331.42786
+
+Generation 163 finished (4m 37.1s)
+   Function value = 69430.47729
+
+Generation 164 finished (5m 4.3s)
+   Function value = 68092.67116
+
+Generation 165 finished (4m 22.0s)
+   Function value = 64129.83639
+
+Generation 166 finished (4m 51.0s)
+   Function value = 67333.93335
+
+Generation 167 finished (4m 38.3s)
+   Function value = 68613.74681
+
+Generation 168 finished (4m 42.2s)
+   Function value = 63093.8434
+
+Generation 169 finished (4m 25.7s)
+   Function value = 66100.2356
+
+Generation 170 finished (4m 56.1s)
+   Function value = 66709.17171
+
+Generation 171 finished (4m 32.6s)
+   Function value = 67373.51115
+
+Generation 172 finished (4m 17.7s)
+   Function value = 66806.30619
+
+Generation 173 finished (4m 41.1s)
+   Function value = 67968.06528
+
+Generation 174 finished (4m 14.6s)
+   Function value = 66323.50058
+
+Generation 175 finished (4m 54.4s)
+   Function value = 62445.51404
+
+Generation 176 finished (5m 15.8s)
+   Function value = 66239.51064
+
+Generation 177 finished (4m 40.3s)
+   Function value = 60902.65505
+
+Generation 178 finished (4m 44.3s)
+   Function value = 66370.8864
+
+Generation 179 finished (5m 2.7s)
+   Function value = 62295.00075
+
+Generation 180 finished (4m 39.4s)
+   Function value = 67016.11423
+
+Generation 181 finished (4m 40.7s)
+   Function value = 68529.25351
+
+Generation 182 finished (4m 32.2s)
+   Function value = 66850.72264
+
+Generation 183 finished (4m 37.2s)
+   Function value = 65748.56191
+
+Generation 184 finished (5m 6.6s)
+   Function value = 64648.82833
+
+Generation 185 finished (4m 44.1s)
+   Function value = 66258.51535
+
+Generation 186 finished (4m 40.3s)
+   Function value = 63827.36908
+
+Generation 187 finished (4m 49.0s)
+   Function value = 66202.70327
+
+Generation 188 finished (4m 21.9s)
+   Function value = 64815.35774
+
+Generation 189 finished (4m 39.0s)
+   Function value = 67031.71867
+
+Generation 190 finished (4m 55.5s)
+   Function value = 66130.75239
+
+Generation 191 finished (4m 17.8s)
+   Function value = 65591.02867
+
+Generation 192 finished (4m 42.0s)
+   Function value = 66669.4032
+
+Generation 193 finished (4m 26.7s)
+   Function value = 65415.30428
+
+Generation 194 finished (4m 41.5s)
+   Function value = 64715.09722
+
+Generation 195 finished (4m 32.1s)
+   Function value = 65497.95647
+
+Generation 196 finished (4m 30.0s)
+   Function value = 65002.16407
+
+Generation 197 finished (4m 25.9s)
+   Function value = 59795.6101
+
+Generation 198 finished (4m 7.1s)
+   Function value = 65942.30927
+
+Generation 199 finished (4m 26.4s)
+   Function value = 61362.99068
+
+Generation 200 finished (4m 29.4s)
+   Function value = 66475.88127
+
+Generation 201 finished (4m 15.8s)
+   Function value = 64791.87683
+
+Generation 202 finished (4m 48.5s)
+   Function value = 66271.91103
+
+Generation 203 finished (5m 8.8s)
+   Function value = 63518.78979
+
+Generation 204 finished (4m 49.7s)
+   Function value = 65333.57467
+
+Generation 205 finished (4m 40.2s)
+   Function value = 65187.24213
+
+Generation 206 finished (4m 46.5s)
+   Function value = 56758.21306
+
+Generation 207 finished (4m 58.3s)
+   Function value = 65324.96222
+
+Generation 208 finished (5m 11.1s)
+   Function value = 65389.07244
+
+Generation 209 finished (4m 45.8s)
+   Function value = 61906.9086
+
+Generation 210 finished (4m 13.6s)
+   Function value = 64019.3729
+
+Generation 211 finished (4m 30.2s)
+   Function value = 66093.22125
+
+Generation 212 finished (4m 46.0s)
+   Function value = 64855.90118
+
+Generation 213 finished (4m 2.4s)
+   Function value = 65587.67003
+
+Generation 214 finished (4m 30.7s)
+   Function value = 64472.27453
+
+Generation 215 finished (4m 10.4s)
+   Function value = 58627.26357
+
+Generation 216 finished (4m 42.2s)
+   Function value = 64780.69601
+
+Generation 217 finished (4m 34.0s)
+   Function value = 62489.42299
+
+Generation 218 finished (4m 15.5s)
+   Function value = 61885.31178
+
+Generation 219 finished (5m 4.0s)
+   Function value = 65097.69862
+
+Generation 220 finished (4m 20.5s)
+   Function value = 66167.53542
+
+Generation 221 finished (4m 34.9s)
+   Function value = 65675.85732
+
+Generation 222 finished (4m 53.8s)
+   Function value = 57650.53293
+
+Generation 223 finished (4m 23.4s)
+   Function value = 64593.90239
+
+Generation 224 finished (3m 55.3s)
+   Function value = 52799.86911
+
+Generation 225 finished (4m 25.1s)
+   Function value = 66082.69025
+
+Generation 226 finished (5m 13.6s)
+   Function value = 65332.59974
+
+Generation 227 finished (4m 24.4s)
+   Function value = 64629.93605
+
+Generation 228 finished (4m 48.5s)
+   Function value = 64654.07345
+
+Generation 229 finished (4m 24.6s)
+   Function value = 49748.81343
+
+Generation 230 finished (4m 44.7s)
+   Function value = 66632.02566
+
+Generation 231 finished (4m 45.5s)
+   Function value = 66138.60195
+
+Generation 232 finished (5m 0.4s)
+   Function value = 64377.8823
+
+Generation 233 finished (4m 49.3s)
+   Function value = 63772.97657
+
+Generation 234 finished (4m 31.1s)
+   Function value = 66260.51259
+
+Generation 235 finished (4m 44.2s)
+   Function value = 60848.43635
+
+Generation 236 finished (4m 36.8s)
+   Function value = 65807.25294
+
+Generation 237 finished (4m 42.0s)
+   Function value = 55626.42658
+
+Generation 238 finished (4m 54.4s)
+   Function value = 61348.71456
+
+Generation 239 finished (4m 42.9s)
+   Function value = 55513.16389
+
+Generation 240 finished (4m 52.0s)
+   Function value = 62085.82937
+
+Generation 241 finished (4m 16.3s)
+   Function value = 64935.4548
+
+Generation 242 finished (4m 38.0s)
+   Function value = 54820.06393
+
+Generation 243 finished (4m 25.7s)
+   Function value = 53365.24528
+
+Generation 244 finished (5m 17.0s)
+   Function value = 58851.32352
+
+Generation 245 finished (4m 12.7s)
+   Function value = 63457.40541
+
+Generation 246 finished (4m 6.4s)
+   Function value = 59811.46385
+
+Generation 247 finished (4m 23.6s)
+   Function value = 61355.82578
+
+Generation 248 finished (4m 17.1s)
+   Function value = 61167.58052
+
+Generation 249 finished (5m 1.5s)
+   Function value = 64138.50924
+
+Generation 250 finished (4m 53.8s)
+   Function value = 64209.88524
+
+Generation 251 finished (4m 56.7s)
+   Function value = 63912.75481
+
+Generation 252 finished (4m 43.0s)
+   Function value = 51603.79285
+
+Generation 253 finished (4m 49.4s)
+   Function value = 64012.95219
+
+Generation 254 finished (4m 40.0s)
+   Function value = 65060.8724
+
+Generation 255 finished (5m 8.6s)
+   Function value = 46672.29894
+
+Generation 256 finished (4m 40.7s)
+   Function value = 63776.14665
+
+Generation 257 finished (4m 22.9s)
+   Function value = 64630.96619
+
+Generation 258 finished (4m 56.4s)
+   Function value = 59555.73861
+
+Generation 259 finished (4m 33.8s)
+   Function value = 64402.62713
+
+Generation 260 finished (4m 37.6s)
+   Function value = 65008.29715
+
+Generation 261 finished (4m 55.5s)
+   Function value = 52627.67852
+
+Generation 262 finished (4m 13.5s)
+   Function value = 64285.02485
+
+Generation 263 finished (4m 37.5s)
+   Function value = 55370.6826
+
+Generation 264 finished (4m 45.2s)
+   Function value = 65760.38143
+
+Generation 265 finished (4m 39.2s)
+   Function value = 64790.76322
+
+Generation 266 finished (4m 30.5s)
+   Function value = 64044.49821
+
+Generation 267 finished (4m 10.8s)
+   Function value = 51277.79451
+
+Generation 268 finished (4m 28.1s)
+   Function value = 57400.54998
+
+Generation 269 finished (5m 0.7s)
+   Function value = 64950.31777
+
+Generation 270 finished (5m 2.8s)
+   Function value = 52666.46102
+
+Generation 271 finished (4m 58.6s)
+   Function value = 55006.88474
+
+Generation 272 finished (4m 51.9s)
+   Function value = 62975.80295
+
+Generation 273 finished (4m 59.5s)
+   Function value = 64198.26095
+
+Generation 274 finished (5m 0.7s)
+   Function value = 50037.9651
+
+Generation 275 finished (4m 59.8s)
+   Function value = 63105.9177
+
+Generation 276 finished (4m 50.5s)
+   Function value = 54767.06595
+
+Generation 277 finished (5m 2.7s)
+   Function value = 50016.82802
+
+Generation 278 finished (4m 44.2s)
+   Function value = 61288.54106
+
+Generation 279 finished (4m 32.7s)
+   Function value = 55552.31518
+
+Generation 280 finished (4m 9.9s)
+   Function value = 64010.89392
+
+Generation 281 finished (5m 3.0s)
+   Function value = 62670.95185
+
+Generation 282 finished (4m 38.4s)
+   Function value = 60804.53295
+
+Generation 283 finished (4m 52.1s)
+   Function value = 62627.77518
+
+Generation 284 finished (4m 44.1s)
+   Function value = 48736.7198
+
+Generation 285 finished (4m 55.1s)
+   Function value = 59845.78975
+
+Generation 286 finished (4m 45.6s)
+   Function value = 63742.00901
+
+Generation 287 finished (5m 14.2s)
+   Function value = 63391.54641
+
+Generation 288 finished (4m 53.7s)
+   Function value = 56360.42293
+
+Generation 289 finished (3m 52.7s)
+   Function value = 56716.11904
+
+Generation 290 finished (4m 15.8s)
+   Function value = 63783.82445
+
+Generation 291 finished (4m 48.4s)
+   Function value = 60289.87324
+
+Generation 292 finished (4m 43.8s)
+   Function value = 56959.10964
+
+Generation 293 finished (4m 33.4s)
+   Function value = 60574.05338
+
+Generation 294 finished (4m 44.8s)
+   Function value = 63551.05227
+
+Generation 295 finished (4m 46.4s)
+   Function value = 61714.90225
+
+Generation 296 finished (4m 59.5s)
+   Function value = 51175.30549
+
+Generation 297 finished (4m 58.6s)
+   Function value = 62828.94796
+
+Generation 298 finished (4m 41.7s)
+   Function value = 60578.90928
+
+Generation 299 finished (4m 57.3s)
+   Function value = 59478.91679
+
+Generation 300 finished (4m 39.3s)
+   Function value = 63258.43208
+
+Generation 301 finished (4m 53.4s)
+   Function value = 59192.04154
+
+Generation 302 finished (5m 0.7s)
+   Function value = 61408.24929
+
+Generation 303 finished (4m 51.7s)
+   Function value = 62836.71389
+
+Generation 304 finished (4m 54.2s)
+   Function value = 63291.01458
+
+Generation 305 finished (4m 52.7s)
+   Function value = 57712.68969
+
+Generation 306 finished (4m 52.9s)
+   Function value = 57898.64511
+
+Generation 307 finished (4m 46.5s)
+   Function value = 60401.39839
+
+Generation 308 finished (4m 57.7s)
+   Function value = 63652.42297
+
+Generation 309 finished (4m 46.7s)
+   Function value = 49275.13982
+
+Generation 310 finished (4m 30.4s)
+   Function value = 61381.91184
+
+Generation 311 finished (5m 15.8s)
+   Function value = 63348.30142
+
+Generation 312 finished (5m 28.7s)
+   Function value = 63931.5549
+
+Generation 313 finished (4m 59.2s)
+   Function value = 62466.51448
+
+Generation 314 finished (4m 15.6s)
+   Function value = 58309.50211
+
+Generation 315 finished (4m 52.8s)
+   Function value = 64183.68709
+
+Generation 316 finished (4m 30.2s)
+   Function value = 60676.88314
+
+Generation 317 finished (4m 56.4s)
+   Function value = 63312.08199
+
+Generation 318 finished (4m 45.1s)
+   Function value = 62477.96708
+
+Generation 319 finished (5m 6.5s)
+   Function value = 63763.3865
+
+Generation 320 finished (5m 31.2s)
+   Function value = 63381.14147
+
+Generation 321 finished (4m 42.7s)
+   Function value = 61994.52123
+
+Generation 322 finished (5m 2.1s)
+   Function value = 63481.57791
+
+Generation 323 finished (4m 39.3s)
+   Function value = 55392.61556
+
+Generation 324 finished (4m 58.6s)
+   Function value = 48557.47905
+
+Generation 325 finished (4m 36.3s)
+   Function value = 58021.60646
+
+Generation 326 finished (4m 44.7s)
+   Function value = 58650.02494
+
+Generation 327 finished (4m 46.7s)
+   Function value = 62128.60548
+
+Generation 328 finished (5m 9.0s)
+   Function value = 54369.86611
+
+Generation 329 finished (4m 42.9s)
+   Function value = 44587.95953
+
+Generation 330 finished (4m 52.1s)
+   Function value = 55411.10128
+
+Generation 331 finished (4m 51.0s)
+   Function value = 61418.45618
+
+Generation 332 finished (4m 43.6s)
+   Function value = 59755.70941
+
+Generation 333 finished (4m 33.1s)
+   Function value = 61333.13037
+
+Generation 334 finished (5m 5.8s)
+   Function value = 59392.52109
+
+Generation 335 finished (4m 55.9s)
+   Function value = 53091.85353
+
+Generation 336 finished (4m 15.0s)
+   Function value = 48594.52021
+
+Generation 337 finished (4m 50.8s)
+   Function value = 61915.16023
+
+Generation 338 finished (4m 48.2s)
+   Function value = 58690.17254
+
+Generation 339 finished (4m 33.6s)
+   Function value = 62790.30947
+
+Generation 340 finished (4m 41.7s)
+   Function value = 61185.84979
+
+Generation 341 finished (4m 36.1s)
+   Function value = 63228.46934
+
+Generation 342 finished (4m 47.7s)
+   Function value = 46806.31704
+
+Generation 343 finished (4m 15.2s)
+   Function value = 60759.85075
+
+Generation 344 finished (4m 34.6s)
+   Function value = 63098.01401
+
+Generation 345 finished (4m 58.7s)
+   Function value = 59695.6018
+
+Generation 346 finished (4m 37.3s)
+   Function value = 61731.2471
+
+Generation 347 finished (4m 49.2s)
+   Function value = 53405.96342
+
+Generation 348 finished (4m 37.0s)
+   Function value = 54389.96812
+
+Generation 349 finished (4m 51.4s)
+   Function value = 61128.68137
+
+Generation 350 finished (4m 48.6s)
+   Function value = 60278.37634
+
+Generation 351 finished (5m 4.0s)
+   Function value = 61206.76628
+
+Generation 352 finished (4m 53.8s)
+   Function value = 53916.87059
+
+Generation 353 finished (4m 33.5s)
+   Function value = 60479.05071
+
+Generation 354 finished (4m 55.6s)
+   Function value = 61057.80145
+
+Generation 355 finished (4m 17.1s)
+   Function value = 62337.24591
+
+Generation 356 finished (4m 52.7s)
+   Function value = 62140.21722
+
+Generation 357 finished (4m 59.1s)
+   Function value = 59970.7112
+
+Generation 358 finished (4m 48.9s)
+   Function value = 54323.81296
+
+Generation 359 finished (5m 12.6s)
+   Function value = 60493.23049
+
+Generation 360 finished (5m 19.1s)
+   Function value = 56430.40694
+
+Generation 361 finished (4m 28.5s)
+   Function value = 58347.48725
+
+Generation 362 finished (4m 32.3s)
+   Function value = 59390.57779
+
+Generation 363 finished (4m 36.8s)
+   Function value = 46914.48813
+
+Generation 364 finished (4m 45.2s)
+   Function value = 57542.20946
+
+Generation 365 finished (4m 50.9s)
+   Function value = 57967.71715
+
+Generation 366 finished (4m 34.4s)
+   Function value = 61650.1726
+
+Generation 367 finished (4m 43.4s)
+   Function value = 58073.23491
+
+Generation 368 finished (4m 37.0s)
+   Function value = 59631.29522
+
+Generation 369 finished (4m 30.0s)
+   Function value = 58364.39443
+
+Generation 370 finished (4m 20.3s)
+   Function value = 57165.41848
+
+Generation 371 finished (5m 3.0s)
+   Function value = 60087.35761
+
+Generation 372 finished (4m 43.7s)
+   Function value = 60290.22588
+
+Generation 373 finished (5m 9.7s)
+   Function value = 59633.51232
+
+Generation 374 finished (4m 30.4s)
+   Function value = 56059.31172
+
+Generation 375 finished (5m 4.9s)
+   Function value = 50194.14827
+
+Generation 376 finished (4m 41.3s)
+   Function value = 47487.44882
+
+Generation 377 finished (4m 38.8s)
+   Function value = 52238.24923
+
+Generation 378 finished (4m 29.7s)
+   Function value = 60757.87128
+
+Generation 379 finished (4m 38.9s)
+   Function value = 61276.9228
+
+Generation 380 finished (4m 12.4s)
+   Function value = 60381.6828
+
+Generation 381 finished (4m 39.1s)
+   Function value = 59295.97139
+
+Generation 382 finished (4m 59.1s)
+   Function value = 62209.79029
+
+Generation 383 finished (4m 59.9s)
+   Function value = 53497.84969
+
+Generation 384 finished (4m 54.0s)
+   Function value = 59014.05687
+
+Generation 385 finished (4m 13.4s)
+   Function value = 59576.63097
+
+Generation 386 finished (4m 44.1s)
+   Function value = 57712.03402
+
+Generation 387 finished (4m 34.3s)
+   Function value = 59334.40524
+
+Generation 388 finished (4m 45.0s)
+   Function value = 48052.45908
+
+Generation 389 finished (4m 39.4s)
+   Function value = 47280.77201
+
+Generation 390 finished (4m 42.8s)
+   Function value = 55137.65957
+
+Generation 391 finished (5m 3.7s)
+   Function value = 61174.3449
+
+Generation 392 finished (5m 8.4s)
+   Function value = 60949.78525
+
+Generation 393 finished (5m 0.5s)
+   Function value = 61826.62952
+
+Generation 394 finished (4m 34.5s)
+   Function value = 41620.57187
+
+Generation 395 finished (4m 27.9s)
+   Function value = 61308.39988
+
+Generation 396 finished (4m 52.1s)
+   Function value = 57979.69648
+
+Generation 397 finished (5m 1.9s)
+   Function value = 60877.27793
+
+Generation 398 finished (5m 18.3s)
+   Function value = 55528.27557
+
+Generation 399 finished (4m 41.8s)
+   Function value = 61703.19361
+
+Generation 400 finished (4m 41.4s)
+   Function value = 57465.43765
+
+Generation 401 finished (5m 0.7s)
+   Function value = 60763.25034
+
+Generation 402 finished (4m 38.8s)
+   Function value = 60435.9843
+
+Generation 403 finished (4m 42.7s)
+   Function value = 61648.42084
+
+Generation 404 finished (4m 40.1s)
+   Function value = 48783.46466
+
+Generation 405 finished (4m 35.9s)
+   Function value = 58753.51599
+
+Generation 406 finished (5m 4.6s)
+   Function value = 61497.01705
+
+Generation 407 finished (4m 31.5s)
+   Function value = 61063.46329
+
+Generation 408 finished (4m 54.7s)
+   Function value = 61161.63287
+
+Generation 409 finished (4m 41.2s)
+   Function value = 59070.80069
+
+Generation 410 finished (4m 39.9s)
+   Function value = 53334.14277
+
+Generation 411 finished (4m 57.0s)
+   Function value = 57650.30144
+
+Generation 412 finished (4m 49.6s)
+   Function value = 61069.15596
+
+Generation 413 finished (4m 33.3s)
+   Function value = 61620.9738
+
+Generation 414 finished (4m 60.0s)
+   Function value = 59466.37602
+
+Generation 415 finished (4m 58.9s)
+   Function value = 58903.65914
+
+Generation 416 finished (4m 44.7s)
+   Function value = 57421.32414
+
+Generation 417 finished (4m 45.2s)
+   Function value = 54675.57499
+
+Generation 418 finished (4m 16.7s)
+   Function value = 60401.47208
+
+Generation 419 finished (4m 57.6s)
+   Function value = 54955.50267
+
+Generation 420 finished (4m 42.3s)
+   Function value = 42827.31402
+
+Generation 421 finished (4m 8.0s)
+   Function value = 60168.03761
+
+Generation 422 finished (4m 40.7s)
+   Function value = 60966.93293
+
+Generation 423 finished (4m 25.1s)
+   Function value = 61374.98722
+
+Generation 424 finished (4m 3.3s)
+   Function value = 57925.41139
+
+Generation 425 finished (4m 47.3s)
+   Function value = 61268.55071
+
+Generation 426 finished (5m 5.0s)
+   Function value = 61304.98396
+
+Generation 427 finished (4m 47.3s)
+   Function value = 41080.76244
+
+Generation 428 finished (4m 41.6s)
+   Function value = 49454.27382
+
+Generation 429 finished (4m 55.1s)
+   Function value = 58385.86766
+
+Generation 430 finished (4m 36.2s)
+   Function value = 57804.69047
+
+Generation 431 finished (4m 55.6s)
+   Function value = 61449.1744
+
+Generation 432 finished (4m 34.7s)
+   Function value = 56890.42123
+
+Generation 433 finished (5m 4.8s)
+   Function value = 57507.44306
+
+Generation 434 finished (4m 46.7s)
+   Function value = 62187.44158
+
+Generation 435 finished (4m 58.0s)
+   Function value = 51987.44511
+
+Generation 436 finished (5m 4.6s)
+   Function value = 59246.49619
+
+Generation 437 finished (4m 33.0s)
+   Function value = 60998.54595
+
+Generation 438 finished (4m 14.8s)
+   Function value = 61670.77808
+
+Generation 439 finished (4m 57.6s)
+   Function value = 61376.37596
+
+Generation 440 finished (4m 42.0s)
+   Function value = 60651.48768
+
+Generation 441 finished (4m 45.7s)
+   Function value = 46071.04209
+
+Generation 442 finished (4m 23.2s)
+   Function value = 57149.9813
+
+Generation 443 finished (4m 59.6s)
+   Function value = 58248.59575
+
+Generation 444 finished (4m 50.4s)
+   Function value = 44098.75514
+
+Generation 445 finished (4m 51.6s)
+   Function value = 60074.24954
+
+Generation 446 finished (4m 51.5s)
+   Function value = 61109.19111
+
+Generation 447 finished (4m 52.9s)
+   Function value = 59947.71642
+
+Generation 448 finished (4m 30.4s)
+   Function value = 60642.97344
+
+Generation 449 finished (4m 59.1s)
+   Function value = 57863.86028
+
+Generation 450 finished (4m 6.9s)
+   Function value = 49015.76781
+
+Generation 451 finished (4m 31.3s)
+   Function value = 60092.34738
+
+Generation 452 finished (4m 45.0s)
+   Function value = 47823.86848
+
+Generation 453 finished (4m 39.4s)
+   Function value = 56838.29848
+
+Generation 454 finished (4m 46.5s)
+   Function value = 59667.135
+
+Generation 455 finished (4m 22.1s)
+   Function value = 60169.79005
+
+Generation 456 finished (4m 33.7s)
+   Function value = 54821.29027
+
+Generation 457 finished (4m 47.5s)
+   Function value = 60661.80731
+
+Generation 458 finished (5m 6.8s)
+   Function value = 52138.24052
+
+Generation 459 finished (4m 41.9s)
+   Function value = 59775.21424
+
+Generation 460 finished (4m 42.1s)
+   Function value = 59085.20499
+
+Generation 461 finished (4m 46.2s)
+   Function value = 58763.34035
+
+Generation 462 finished (4m 55.9s)
+   Function value = 59657.56658
+
+Generation 463 finished (4m 44.8s)
+   Function value = 59849.87806
+
+Generation 464 finished (4m 39.0s)
+   Function value = 57132.29312
+
+Generation 465 finished (4m 48.5s)
+   Function value = 60487.53723
+
+Generation 466 finished (4m 51.4s)
+   Function value = 60562.33508
+
+Generation 467 finished (4m 29.7s)
+   Function value = 59558.61118
+
+Generation 468 finished (5m 6.9s)
+   Function value = 52681.28735
+
+Generation 469 finished (4m 53.1s)
+   Function value = 60586.64217
+
+Generation 470 finished (4m 44.0s)
+   Function value = 58269.76315
+
+Generation 471 finished (4m 37.2s)
+   Function value = 59238.63495
+
+Generation 472 finished (4m 52.1s)
+   Function value = 60695.58896
+
+Generation 473 finished (4m 44.7s)
+   Function value = 60954.89669
+
+Generation 474 finished (4m 53.5s)
+   Function value = 55336.6748
+
+Generation 475 finished (4m 41.2s)
+   Function value = 60938.4487
+
+Generation 476 finished (5m 2.2s)
+   Function value = 60766.27044
+
+Generation 477 finished (4m 47.5s)
+   Function value = 62231.37922
+
+Generation 478 finished (4m 41.6s)
+   Function value = 61043.1337
+
+Generation 479 finished (5m 8.7s)
+   Function value = 61095.39827
+
+Generation 480 finished (5m 1.9s)
+   Function value = 57132.98257
+
+Generation 481 finished (4m 50.0s)
+   Function value = 58757.45226
+
+Generation 482 finished (4m 57.9s)
+   Function value = 57388.50924
+
+Generation 483 finished (4m 44.7s)
+   Function value = 56282.36858
+
+Generation 484 finished (4m 55.9s)
+   Function value = 58558.80125
+
+Generation 485 finished (4m 47.1s)
+   Function value = 60198.73484
+
+Generation 486 finished (5m 1.5s)
+   Function value = 59935.7911
+
+Generation 487 finished (4m 52.4s)
+   Function value = 60502.2569
+
+Generation 488 finished (4m 25.2s)
+   Function value = 58863.5982
+
+Generation 489 finished (4m 9.4s)
+   Function value = 54355.7288
+
+Generation 490 finished (4m 58.8s)
+   Function value = 53883.39099
+
+Generation 491 finished (4m 17.4s)
+   Function value = 60751.15745
+
+Generation 492 finished (4m 31.6s)
+   Function value = 52205.7513
+
+Generation 493 finished (4m 51.3s)
+   Function value = 48408.48711
+
+Generation 494 finished (4m 46.6s)
+   Function value = 57704.91132
+
+Generation 495 finished (4m 52.7s)
+   Function value = 46834.98153
+
+Generation 496 finished (5m 0.7s)
+   Function value = 60495.03824
+
+Generation 497 finished (4m 42.0s)
+   Function value = 45754.54454
+
+Generation 498 finished (4m 31.8s)
+   Function value = 46974.95753
+
+Generation 499 finished (4m 49.3s)
+   Function value = 47839.96628
+
+Generation 500 finished (4m 15.4s)
+   Function value = 58890.25145
+
+	Phase 3 finished (39h 3m 32.8s)
+	Function value: 81870.6
+	Parameter values: -3.18 -5.5 7.3 -2.06 2.24 0.508 3.34 -0.467 -1.43 0.158 -2.03 -1.91 -1.01 -2.25 -2.35 0.495 -1.54 -1.4 -3.22 -2.65 -3.7 -2.73 -3.55 -1.61 -0.886 1.49 1.47 1.12 0.0684 2.58 2.42 1.21 -0.478 1.88 2.16 -0.136 1.78 0.488 -0.166 1.32 1.43 1.62 1.16 0.828 1.27 0.955 1.58 1.46 1.54 1.81 1.07 1.67 1.55 1.46 0.863 1.49 0.998 1.07 -2.23 1.44 -0.0687 -0.275 -0.278 -0.575 -1.11 -0.509 -0.683 -0.267 -0.671 -1.12 -1.12 -1.08 0.0935 0.047 -0.663 -0.624 -0.923 -0.54 -0.614 -1.57 1.1 -1.34 -2.88 -0.185 -0.116 -2.12 -2.45 -2.28 -2.32 -2.12 -1.97 -2.35 -2.21 -2.14 -2.16 -1.81 -2.26 -1.99 -2.06 -2 -2.3 -1.85 -2.34 -2.08 -2.39 0.217 -2.27 0.352 -2.35 -2.27 -1.93 -1.78 -1.95 -1.94 -2.35 -1.82 -2.37 -2.08 -1.87 -1.89 -1.9 -1.74 -2.15 -1.75 -2.13 -1.8 -2.17 -2.22 -2.07 -0.107 -0.369 0.56 -0.683 0.328 0.158 0.429 -0.391 -0.275 -0.592 0.00986 -0.0915 0.0518 0.195 0.599 0.0617 0.45 0.313 -0.28 -0.158 0.269 -1.93 -1.77 -0.383
+
+Status: Maximum number of generations or function evaluations reached.

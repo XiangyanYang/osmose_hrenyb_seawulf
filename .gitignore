@@ -2,5 +2,5 @@
 osmose-hrenyb-v4.4.1-xiangyan/output/
 
 # ignore .run_calibration
-.run_calibration_0506/
-.run_calibration_0511/
+.run_calibration_*/
+

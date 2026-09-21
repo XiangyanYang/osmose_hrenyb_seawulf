@@ -1,0 +1,245 @@
+
+#------- Parameters to be calibrated -------
+
+#---- Resources species
+
+species.accessibility2fish.logit.sp17 = -3
+species.accessibility2fish.logit.sp18 = 1
+species.accessibility2fish.logit.sp19 = 10
+species.accessibility2fish.logit.sp20 = 1
+species.accessibility2fish.logit.sp21 = 10
+species.accessibility2fish.logit.sp22 = 1
+species.accessibility2fish.logit.sp23 = 10
+species.accessibility2fish.logit.sp24 = 10
+
+#---- Focal species
+
+population.initialization.biomass.log10.sp0 = 7
+population.initialization.biomass.log10.sp1 = 7
+population.initialization.biomass.log10.sp2 = 7
+population.initialization.biomass.log10.sp3 = 7
+population.initialization.biomass.log10.sp4 = 7
+population.initialization.biomass.log10.sp5 = 7
+population.initialization.biomass.log10.sp6 = 7
+population.initialization.biomass.log10.sp7 = 7
+population.initialization.biomass.log10.sp8 = 7
+population.initialization.biomass.log10.sp9 = 7
+population.initialization.biomass.log10.sp10 = 7
+population.initialization.biomass.log10.sp11 = 7
+population.initialization.biomass.log10.sp12 = 7
+population.initialization.biomass.log10.sp13 = 7
+population.initialization.biomass.log10.sp14 = 7
+population.initialization.biomass.log10.sp15 = 7
+population.initialization.biomass.log10.sp16 = 7
+
+mortality.additional.rate.log10.sp0 = 1
+mortality.additional.rate.log10.sp1 = 1
+mortality.additional.rate.log10.sp2 = 1
+mortality.additional.rate.log10.sp3 = 1
+mortality.additional.rate.log10.sp4 = 1
+mortality.additional.rate.log10.sp5 = 1
+mortality.additional.rate.log10.sp6 = 1
+mortality.additional.rate.log10.sp7 = 1
+mortality.additional.rate.log10.sp8 = 1
+mortality.additional.rate.log10.sp9 = 1
+mortality.additional.rate.log10.sp10 = 1
+mortality.additional.rate.log10.sp11 = 1
+mortality.additional.rate.log10.sp12 = 1
+mortality.additional.rate.log10.sp13 = 1
+mortality.additional.rate.log10.sp14 = 1
+mortality.additional.rate.log10.sp15 = 1
+mortality.additional.rate.log10.sp16 = 1
+
+mortality.additional.larva.rate.log10.sp0 = 3
+mortality.additional.larva.rate.log10.sp1 = 3
+mortality.additional.larva.rate.log10.sp2 = 3
+mortality.additional.larva.rate.log10.sp3 = 3
+mortality.additional.larva.rate.log10.sp5 = 3
+mortality.additional.larva.rate.log10.sp6 = 3
+mortality.additional.larva.rate.log10.sp7 = 3
+mortality.additional.larva.rate.log10.sp8 = 3
+mortality.additional.larva.rate.log10.sp9 = 3
+mortality.additional.larva.rate.log10.sp10 = 3
+mortality.additional.larva.rate.log10.sp11 = 3
+mortality.additional.larva.rate.log10.sp12 = 3
+mortality.additional.larva.rate.log10.sp13 = 3
+mortality.additional.larva.rate.log10.sp14 = 3
+mortality.additional.larva.rate.log10.sp15 = 3
+mortality.additional.larva.rate.log10.sp16 = 3
+
+osmose.user.larval.deviate.log.sp0 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp1 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp2 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp3 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp5 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp6 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp7 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp8 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp9 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp10 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp11 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp12 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp13 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp14 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp15 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+osmose.user.larval.deviate.log.sp16 = 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+predation.ingestion.rate.max.log10.sp0 = 2
+predation.ingestion.rate.max.log10.sp1 = 2
+predation.ingestion.rate.max.log10.sp2 = 2
+predation.ingestion.rate.max.log10.sp3 = 2
+predation.ingestion.rate.max.log10.sp4 = 2
+predation.ingestion.rate.max.log10.sp5 = 2
+predation.ingestion.rate.max.log10.sp6 = 2.035
+predation.ingestion.rate.max.log10.sp7 = 2
+predation.ingestion.rate.max.log10.sp8 = 2
+predation.ingestion.rate.max.log10.sp9 = 2
+predation.ingestion.rate.max.log10.sp10 = 2
+predation.ingestion.rate.max.log10.sp11 = 2
+predation.ingestion.rate.max.log10.sp12 = 2
+predation.ingestion.rate.max.log10.sp13 = 2
+predation.ingestion.rate.max.log10.sp14 = 2
+predation.ingestion.rate.max.log10.sp15 = 2
+predation.ingestion.rate.max.log10.sp16 = 2
+
+species.delta.lmax.factor.sp0 = 2
+species.delta.lmax.factor.sp1 = 2
+species.delta.lmax.factor.sp2 = 2
+species.delta.lmax.factor.sp3 = 2
+species.delta.lmax.factor.sp4 = 2
+species.delta.lmax.factor.sp5 = 2
+species.delta.lmax.factor.sp6 = 2
+species.delta.lmax.factor.sp7 = 2
+species.delta.lmax.factor.sp8 = 2
+species.delta.lmax.factor.sp9 = 2
+species.delta.lmax.factor.sp10 = 2
+species.delta.lmax.factor.sp11 = 2
+species.delta.lmax.factor.sp12 = 2
+species.delta.lmax.factor.sp13 = 2
+species.delta.lmax.factor.sp14 = 2
+species.delta.lmax.factor.sp15 = 2
+species.delta.lmax.factor.sp16 = 2
+
+#---- Fisheries
+
+-- Fishery 0: AtlanticHerringF
+
+fisheries.rate.base.log.fsh0 = 3
+
+fisheries.rate.byperiod.log.fsh0 = 1.977,2.107,2.031,2.243,2.243,2.243,2.454,2.419,2.471,2.947,2.684,2.504,2.504,2.583,2.325,2.265,2.265,2.243,2.436,1.612
+
+fisheries.selectivity.l50.fsh0 = 40
+
+-- Fishery 1: AtlanticMackerelF
+
+fisheries.rate.base.log.fsh1 = 3
+
+fisheries.rate.byperiod.log.fsh1 = 0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131,0.131
+
+fisheries.selectivity.l50.fsh1 = 69
+
+-- Fishery 2: BlackSeaBassF
+
+fisheries.rate.base.log.fsh2 = 3
+
+fisheries.rate.byperiod.log.fsh2 = 2.382,2.536,2.568,2.436,2.436,2.325,2.382,2.401,2.265,2.568,2.684,2.082,2.454,2.382,2.082,1.795,1.89,2.325,1.977,2.057
+
+fisheries.selectivity.l50.fsh2 = 84
+
+-- Fishery 3: ScupF
+
+fisheries.rate.base.log.fsh3 = 3
+
+fisheries.rate.byperiod.log.fsh3 = 1.689,1.032,0.696,1.032,0.878,0.339,0.591,0.591,0.003,0.185,0.473,0.473,0.473,0.791,0.591,0.878,0.591,0.696,0.473,0.591
+
+fisheries.selectivity.l50.fsh3 = 51
+
+-- Fishery 4: SpinyDogfishF
+
+fisheries.rate.base.log.fsh4 = 3
+
+fisheries.rate.byperiod.log.fsh4 = -0.038,-0.22,-0.354,-0.965,-0.774,-1.019,-0.865,-0.651,-0.865,-0.651,-0.965,-0.508,-0.444,-0.508,-0.081,-0.413,-0.125,-0.272,-0.475,-0.172
+
+fisheries.selectivity.l50.fsh4 = 210
+
+-- Fishery 5: StripedBassF
+
+fisheries.rate.base.log.fsh5 = 3
+
+fisheries.rate.byperiod.log.fsh5 = 1.267,1.25,1.25,1.343,1.542,1.511,1.64,1.338,1.484,1.409,1.571,1.584,1.537,1.902,1.62,1.461,1.659,1.811,1.74,1.74
+
+fisheries.selectivity.l50.fsh5 = 143
+
+-- Fishery 6: GoosefishF
+
+fisheries.rate.base.log.fsh6 = 3
+
+fisheries.rate.byperiod.log.fsh6 = -1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609
+
+fisheries.selectivity.l50.fsh6 = 87
+
+-- Fishery 7: WinterFlounderF
+
+fisheries.rate.base.log.fsh7 = 3
+
+fisheries.rate.byperiod.log.fsh7 = 2.401,2.583,2.454,2.401,2.2,2.004,2.265,2.031,1.726,0.927,0.421,0.665,0.887,1.273,1.244,1.256,1.322,1.209,0.919,0.613
+
+fisheries.selectivity.l50.fsh7 = 61
+
+-- Fishery 8: SquidsF
+
+fisheries.rate.base.log.fsh8 = 3
+
+fisheries.rate.byperiod.log.fsh8 = 0.919,0.919,1.166,0.725,1.58,1.795,1.166,0.836,1.166,1.166,0.735,1.141,1.032,0.725,1.273,1.273,1.624,1.502,1.502,1.364
+
+fisheries.selectivity.l50.fsh8 = 33
+
+-- Fishery 9: FloundersF
+
+fisheries.rate.base.log.fsh9 = 3
+
+fisheries.rate.byperiod.log.fsh9 = 2.635,2.231,2.14,2.1,2.168,2.215,1.911,1.64,1.887,1.946,2.054,2.222,2.155,2.25,2.175,2.148,2.15,1.934,1.808,2.004
+
+fisheries.selectivity.l50.fsh9 = 100
+
+-- Fishery 10: SkateRaysF
+
+fisheries.rate.base.log.fsh10 = 3
+
+fisheries.rate.byperiod.log.fsh10 = -1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609,-1.609
+
+fisheries.selectivity.l50.fsh10 = 90
+
+-- Fishery 11: HakesF
+
+fisheries.rate.base.log.fsh11 = 3
+
+fisheries.rate.byperiod.log.fsh11 = 0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693,0.693
+
+fisheries.selectivity.l50.fsh11 = 56
+
+-- Fishery 12: BenthopelagicsF
+
+fisheries.rate.base.log.fsh12 = 3
+
+fisheries.rate.byperiod.log.fsh12 = 0.706,1.267,0.754,0.706,0.151,-0.354,0.003,-0.651,0.003,-0.272,-0.475,0.28,0.023,0.168,1.502,1.047,0.853,1.475,0.887,1.364
+
+fisheries.selectivity.l50.fsh12 = 10
+
+-- Fishery 13: MiscellaneousDemersalsF
+
+fisheries.rate.base.log.fsh13 = 3
+
+fisheries.rate.byperiod.log.fsh13 = 1.018,1.399,1.516,1.6,1.502,2.026,1.982,1.954,1.58,1.931,1.711,1.461,1.781,1.311,1.604,1.374,1.493,1.3,1.502,2.211
+
+fisheries.selectivity.l50.fsh13 = 42
+
+-- Fishery 14: ShallowDemersalF
+
+fisheries.rate.base.log.fsh14 = 3
+
+fisheries.rate.byperiod.log.fsh14 = 1.261,1.326,1.188,1.11,1.26,1.289,1.483,1.345,1.173,1.169,1.485,1.442,1.208,0.897,1.176,1.428,1.475,1.377,1.57,1.827
+
+fisheries.selectivity.l50.fsh14 = 53
+
+#---- User parameters
